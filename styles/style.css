@@ -1,0 +1,489 @@
+*{box-sizing: border-box}
+
+body{
+	font-family:xxx;
+	font-size: 14px;
+}
+
+.anlogo {
+display: flex;
+float: left;
+width: 60.58px;
+height: 48px;
+left: 128px;
+top: 46px;
+}
+
+ul.navmenu {
+  vertical-align: top;
+    margin-right: 1em;
+    float: right;
+    padding-left: 0;
+    margin-top: .75em;
+}
+
+.navitem {
+display: inline;
+color: black;
+margin-right: 1em;
+font-family: 'Droid Sans', sans-serif;
+text-decoration: none;
+font-size: 18px;
+text-align: right;
+letter-spacing: 0.15em
+padding: 0;
+}
+
+a.navlink {
+    display: inline;
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+.project1-image{
+width: 628.88px;
+height: 441px;
+left: 772px;
+top: 1333px;
+float: left;
+}
+
+.project2-image{
+width: 789.35px;
+height: 465px;
+left: 106.65px;
+top: 2175px;
+float: right;
+}
+
+main {
+  width: 100%;
+  display: block;
+}
+
+.hero {
+	background-image: url(../images/brooklynskyline.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+  min-height: 500px;
+  background-position-x: -60px;
+}
+
+article .home{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+section.content {
+  display: block;
+  width: 100%;
+  position: relative;
+  display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+  max-width: 1200px;
+  margin: 10px auto;
+}
+
+.home{
+width: 1439.5px;
+height: 557.5px;
+left: 1px;
+top: 616px;
+}
+
+h1{
+margin-top: 100px;
+font-family: 'Dosis', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 55px;
+line-height: 70px;
+text-align: center;
+color: #0C0B65;
+}
+
+.slogan{
+  margin-top: 20px;
+  font-family: 'Dosis', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 57px;
+  text-align: center;
+  color: #0C0B65;
+}
+
+.right{
+  flex-basis: 1;
+}
+
+h2.project-head-right{
+  font-family: 'Droid Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+}
+
+p.project-description-right{
+font-family: 'Dosis';
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 140%;
+color: #000000;
+}
+
+
+.left{
+  flex-basis: 0 0 1;
+}
+
+h2.project-head-left{
+  font-family: 'Droid Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+}
+
+p.project-description-left{
+font-family: 'Dosis', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 140%;
+color: #000000;
+}
+
+.CTA{
+background: #FBD3DB;
+padding: 10px 15px;
+border-radius: 46px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 27px;
+align-items: center;
+text-align: center;
+color: #000000;
+
+}
+
+.CTA.alt{
+background: #B3D8E6;
+border-radius: 36px;
+padding: 10px 15px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 27px;
+align-items: center;
+text-align: center;
+color: #000000;
+}
+
+.project1image{
+position: absolute;
+width: 628.88px;
+height: 441px;
+left: 772px;
+top: 1333px;
+}
+
+.project2-image{
+  max-width: 600px;
+}
+
+.social ul li i{
+  font-size: 40px;
+}
+
+.social ul li {
+display: inline-block;
+margin: 10px 50px;
+}
+
+.social ul {
+  width: 70%;
+  margin: auto;
+}
+
+p.footer-text{
+  font-size: .88em;
+  margin-top: 1.6em;
+  margin-left: 1em;
+text-align: center;
+}
+
+footer{
+  text-align: center;
+}
+
+.cs-container-title{
+  margin: 5em auto 3em;
+    padding-top: 2em;
+    max-width: 50em;
+    padding-left: 3em;
+    padding-right: 3em
+}
+
+.cs-top-image{
+margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding-bottom: .5em;
+  }
+
+.cs-title{
+margin-top: .25em;
+font-size: 45px;
+font-weight: 400;
+letter-spacing: normal;
+line-height: 1.25em;
+font-family: 'Dosis', sans-serif;
+font-style: normal;
+}
+
+.cs1-project-hierarchy{
+width: 628px;
+height: 51px;
+left: 102px;
+top: 475px;
+font-family: 'Dosis', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 46px;
+color: #000000;
+}
+
+.cs-container-summary {
+    display: flex;
+    width: 100%;
+}
+
+.cs-container {
+    margin: 3em auto;
+    max-width: 50em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.cs-summary {
+display: inline-block;
+padding-left: 10%;
+padding-right: 5%;
+}
+
+.cs-head1 {
+    margin-top: 1.75em;
+    margin-bottom: .25em;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.cs-head {
+    margin-top: 1em;
+    margin-bottom: .25em;
+}
+
+.h3 {
+font-weight: 700;
+color: #000;
+font-size: 1.5em;
+line-height: 1.5em;
+margin-bottom: 0;
+text-align: left;
+font-family:'Dosis', sans-serif;
+}
+
+.cs-text {
+font-size: 1em;
+line-height: 1.5em;
+margin-top: 0;
+margin-bottom: 1.75em;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: 140%;
+}
+
+.cs-section-head {
+    margin-top: 0;
+    color: #000;
+    padding-bottom: .25em;
+    margin-bottom: .5em;
+    padding-top: 0;
+}
+
+h2 {
+    font-family: 'Droid-sans', sans-serif;
+    font-size: 2.5em;
+    font-weight: 400;
+}
+
+h3 {
+    font-weight: 700;
+    color: #00000;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-bottom: 0;
+    text-align: left;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+.cs-specs-head1 {
+    color: #000;
+    line-height: 1.5em;
+    margin-top: 1.75em;
+    margin-bottom: .25em;
+}
+
+.cs-specs-head {
+    color: #000;
+    line-height: 1.5em;
+    margin-top: 1em;
+    margin-bottom: .25em;
+}
+
+.cs-specs-text {
+    color: #000;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cs-specs-all {
+    display: inline-block;
+    background-color: lime;
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-bottom: 4em;
+    box-sizing: border-box;
+}
+
+.cs-button {
+  border-radius: 21.0547px;
+  padding: 10px 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  background-color: #79CEC7;
+}
+
+.competitors {
+    display: inline-block;
+}
+
+.competitive-logo{
+display: inline-block;
+float: right;
+width: 10%;
+padding: .25em .5em;
+}
+
+.cs-text-left{
+padding-right: 15%;
+padding-left: 2em;
+margin-left: 0;
+margin-bottom: 1.5em;
+vertical-align: top;
+margin-top: 0;
+width: 80%;
+font-family: 'Montserrat', sans-serif;
+}
+
+.cs-prebullet-text {
+padding-right: 40%;
+font-size: 1em;
+line-height: 1.5em;
+margin-top: 0;
+margin-bottom: .5em;
+font-family: 'Montserrat', sans-serif;
+}
+
+.cs-list {
+    margin-bottom: 2em;
+    padding-left: 1.25em;
+}
+
+.cs-text-list {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 0;
+    margin-bottom: .5em;
+    padding-left: .25em;
+    padding-right: 40%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cs-category {
+    display: inline-block;
+}
+
+.cs-bb-visualdesign {
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: block;
+}
+
+.cs-el-visualdesign {
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: block;
+}
+
+.user-flow-img{
+    background-image: url(../edulifeuserflow.png);
+    background-size: cover;
+    min-height: 10em;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin-top: 4em;
+}
+
+.cs-persona-text{
+    float: left;
+    padding-right: 15%;
+    padding-left: 2em;
+    margin-left: 0;
+    margin-bottom: 1.5em;
+    vertical-align: top;
+    margin-top: 0;
+    width: 80%;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.cs-persona-pic {
+    padding-top: 0;
+    padding-right: 0;
+    margin-right: 0;
+    float: left;
+    padding-left: 0;
+    margin-left: 0;
+    vertical-align: top;
+    width: 20%;
+}
+
+@media screen and (max-width: 1024px) {
+  section.content {
+  }
