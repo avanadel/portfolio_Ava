@@ -5,6 +5,15 @@ body{
 	font-size: 14px;
 }
 
+.headshot{
+margin-top: -6em;
+}
+
+.about-content {
+    max-width: 33em;
+    margin: auto;
+}
+
 .anlogo {
 display: flex;
 float: left;
@@ -216,17 +225,6 @@ margin: 10px 50px;
   margin: auto;
 }
 
-p.footer-text{
-  font-size: .88em;
-  margin-top: 1.6em;
-  margin-left: 1em;
-text-align: center;
-}
-
-footer{
-  text-align: center;
-}
-
 .cs-container-title{
   margin: 5em auto 3em;
     padding-top: 2em;
@@ -278,49 +276,52 @@ color: #000000;
 }
 
 .cs-summary {
+background-color: #B3D8E6;
 display: inline-block;
 padding-left: 10%;
 padding-right: 5%;
 }
 
 .cs-head1 {
+	font-weight: bold;
     margin-top: 1.75em;
     margin-bottom: .25em;
     font-family: 'Droid Sans', sans-serif;
 }
 
 .cs-head {
-    margin-top: 1em;
-    margin-bottom: .25em;
-}
-
-.h3 {
-font-weight: 700;
-color: #000;
-font-size: 1.5em;
-line-height: 1.5em;
-margin-bottom: 0;
-text-align: left;
-font-family:'Dosis', sans-serif;
+	font-weight: bold;
+    margin-top: .5em;
+    margin-bottom: 1.25em;
+		font-family: 'Droid Sans', sans-serif;
 }
 
 .cs-text {
 font-size: 1em;
-line-height: 1.5em;
 margin-top: 0;
 margin-bottom: 1.75em;
 font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: normal;
 line-height: 140%;
+
 }
 
+.survey-result-img{
+    line-height: 1.5em;
+    font-weight: 400;
+    float: right;
+    width: 40%;
+  }
+
 .cs-section-head {
-    margin-top: 0;
+	font-weight: bold;
+    margin-top: .5em;
     color: #000;
-    padding-bottom: .25em;
-    margin-bottom: .5em;
-    padding-top: 0;
+    padding-bottom: .50em;
+    margin-bottom: .10em;
+    padding-top: 20px;
+		font-family: 'Droid Sans', sans-serif;
 }
 
 h2 {
@@ -329,28 +330,16 @@ h2 {
     font-weight: 400;
 }
 
-h3 {
-    font-weight: 700;
-    color: #00000;
-    font-size: 1.5em;
-    line-height: 1.5em;
-    margin-bottom: 0;
-    text-align: left;
-  font-family: 'Droid Sans', sans-serif;
-}
-
 .cs-specs-head1 {
     color: #000;
     line-height: 1.5em;
     margin-top: 1.75em;
     margin-bottom: .25em;
+		font-family: 'Dosis', sans-serif;
 }
 
-.cs-specs-head {
-    color: #000;
-    line-height: 1.5em;
-    margin-top: 1em;
-    margin-bottom: .25em;
+.cs-specs2 {
+    width: 100%;
 }
 
 .cs-specs-text {
@@ -360,23 +349,34 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+.specs-list1 {
+    list-style: none;
+}
+
+.specs-list2 {
+    list-style: none;
+}
+
 .cs-specs-all {
     display: inline-block;
-    background-color: lime;
-    background-color: white;
+    background-color: #FBD3DB;
     padding-left: 5%;
     padding-right: 10%;
     padding-bottom: 4em;
     box-sizing: border-box;
 }
 
+.cs-specs1 {
+    width: 100%;
+}
+
 .cs-button {
-  border-radius: 21.0547px;
-  padding: 10px 15px;
+  border-radius: 30px;
+  padding: 10px 20px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 27px;
   align-items: center;
   text-align: center;
@@ -396,14 +396,16 @@ padding: .25em .5em;
 }
 
 .cs-text-left{
-padding-right: 15%;
-padding-left: 2em;
+	line-height: 140%;
+padding-right: 40%;
+padding-left: 10em;
 margin-left: 0;
 margin-bottom: 1.5em;
 vertical-align: top;
 margin-top: 0;
 width: 80%;
 font-family: 'Montserrat', sans-serif;
+width: 120%;
 }
 
 .cs-prebullet-text {
@@ -435,7 +437,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .cs-bb-visualdesign {
-    max-width: 60%;
+    max-width: 50%;
     height: auto;
     margin: 0 auto;
     padding-top: 2em;
@@ -473,15 +475,141 @@ font-family: 'Montserrat', sans-serif;
    font-family: 'Montserrat', sans-serif;
 }
 
+p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
 .cs-persona-pic {
     padding-top: 0;
     padding-right: 0;
-    margin-right: 0;
+    margin-right: 10px;
     float: left;
     padding-left: 0;
     margin-left: 0;
     vertical-align: top;
+    width: 18%;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+	}
+
+.competitive-logo {
+    display: inline-block;
+    float: right;
     width: 20%;
+    padding: .25em .5em;
+}
+
+footer.footer-main {
+background-color: #B3D8E6;
+display: inline-block;
+width: 100%;
+position: relative;
+bottom: -.5em;
+}
+
+li.footer-social {
+    margin: .25em 1em 0em;
+    float: left;
+    display: block;
+}
+
+ul.footer-info {
+    float: right;
+    margin: .75em 1em .75em;
+}
+
+p.footer-text {
+font-size: .88em;
+margin-top: 1.6em;
+margin-left: 1em;
+text-align: left;
+font-family: 'Dosis', sans-serif;
+}
+
+  p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.space-top1 {
+    padding-top: 1em;
+}
+
+.astral {
+    color: #396F91;
+    padding-bottom: .5em;
+    margin-bottom: 0;
+}
+
+.about-text {
+    font-size: 1.125em;
+    line-height: 1.5em;
+    margin-top: 0;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.about-text-bottom {
+    font-size: 1.125em;
+    line-height: 1.5em;
+    margin-top: 0;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.about-button-position {
+    max-width: 33em;
+    margin: -.5em auto 0;
+    padding-top: 28px;
+    padding-bottom: 15px;
+}
+
+.about-button {
+    border: none;
+    padding: 11px 14px;
+    font-size: .88em;
+    background-color: #F87F89;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+    margin-top: -2em;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .about-top {
+    background-color: #ffffff;
+    padding-top: 10em;
+    width: 100%;
+    height: 10%;
+    vertical-align: top;
+}
+
+.about-background {
+    background-color: #EDF4F5;
+    width: 100%;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+		color: black;
+		width: 40px;
+	}
+
+	.far {
+    color: black;
+    font-weight: 400;
+	}
+
+.survey-results {
+margin-bottom: 1em;
+margin-top: 2em;
+}
+
+.main-container-about {
+    margin: 5em auto 10em;
 }
 
 @media screen and (max-width: 1024px) {
