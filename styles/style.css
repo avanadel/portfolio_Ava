@@ -234,9 +234,9 @@ margin: 10px 50px;
 }
 
 .cs-top-image{
-margin: 0 auto;
-    width: 100%;
-    height: auto;
+	height: auto;
+	    margin: 0 auto;
+	    max-width: 90%;
     padding-bottom: .5em;
   }
 
@@ -295,8 +295,8 @@ color: #000000;
 
 .cs-head1 {
 	font-weight: bold;
-    margin-top: 1.75em;
-    margin-bottom: .25em;
+	margin-top: .5em;
+margin-bottom: .5em;
     font-family: 'Droid Sans', sans-serif;
 }
 
@@ -660,6 +660,18 @@ anchor a {
     justify-content: center;
     text-align: center;
 }
+
+.problem, .solution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+    width: 80%;
+    background: #FBD3DB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+	}
 
 @media only screen and (min-width: 40rem)
  {
