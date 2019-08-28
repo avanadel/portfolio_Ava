@@ -17,10 +17,10 @@ margin-top: -6em;
 .anlogo {
 display: flex;
 float: left;
+padding: .5rem;
+margin: .5rem;
 width: 60.58px;
 height: 48px;
-left: 128px;
-top: 46px;
 }
 
 ul.navmenu {
@@ -46,7 +46,7 @@ padding: 0;
 a.navlink {
     display: inline;
     text-decoration: none;
-    color: #4a4a4a;
+    color: #008DFE;
 }
 
 .project1-image{
@@ -241,20 +241,30 @@ margin: 0 auto;
   }
 
 .cs-title{
+	margin-bottom: .5em;
+    text-align: center;
 margin-top: .25em;
-font-size: 45px;
+font-size: 36px;
 font-weight: 400;
 letter-spacing: normal;
 line-height: 1.25em;
 font-family: 'Dosis', sans-serif;
 font-style: normal;
+    padding-top: 30px;
+}
+
+.case-hero-text {
+    margin: 2em;
+    text-align: center;
+    font-size: 1.75em;
+    font-weight: bold;
+    align-items: center;
+		font-family: 'Montserrat', sans-serif;
 }
 
 .cs1-project-hierarchy{
-width: 628px;
-height: 51px;
+height: 25px;
 left: 102px;
-top: 475px;
 font-family: 'Dosis', sans-serif;
 font-style: normal;
 font-weight: normal;
@@ -276,10 +286,11 @@ color: #000000;
 }
 
 .cs-summary {
-background-color: #B3D8E6;
-display: inline-block;
-padding-left: 10%;
-padding-right: 5%;
+	width: 100%;
+	    background-color: #B3D8E6;
+	    display: inline-block;
+	    padding-left: 10%;
+	    padding-right: 5%;
 }
 
 .cs-head1 {
@@ -291,7 +302,7 @@ padding-right: 5%;
 
 .cs-head {
 	font-weight: bold;
-    margin-top: .5em;
+    margin-top: 2em;
     margin-bottom: 1.25em;
 		font-family: 'Droid Sans', sans-serif;
 }
@@ -358,12 +369,13 @@ h2 {
 }
 
 .cs-specs-all {
-    display: inline-block;
-    background-color: #FBD3DB;
-    padding-left: 5%;
-    padding-right: 10%;
-    padding-bottom: 4em;
-    box-sizing: border-box;
+	width: 90%;
+	display: inline-block;
+	background-color: #FBD3DB;
+	padding-left: 5%;
+	padding-right: 20%;
+	padding-bottom: 1em;
+	box-sizing: border-box;
 }
 
 .cs-specs1 {
@@ -393,6 +405,15 @@ display: inline-block;
 float: right;
 width: 10%;
 padding: .25em .5em;
+}
+
+.ca-images {
+	  padding: .25em .5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .cs-text-left{
@@ -612,6 +633,34 @@ margin-top: 2em;
     margin: 5em auto 10em;
 }
 
-@media screen and (max-width: 1024px) {
-  section.content {
+anchor a {
+    position: absolute;
+    left: 0rem;
+    top: -6rem;
+	}
+
+	.anchor {
+    position: relative;
+}
+
+.overview h3 {
+    font-size: 1.5rem;
+}
+
+.overview div {
+    width: 16.3rem;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+	}
+
+	.overview {
+    display: flex;
+		flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+@media only screen and (min-width: 40rem)
+ {
   }
