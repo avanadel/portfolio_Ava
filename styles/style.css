@@ -5,6 +5,21 @@ body{
 	font-size: 14px;
 }
 
+#wrapper {
+
+    max-width: 1024px; /* or whatever max size */
+
+    margin: 0 auto; /* center content on large screens */
+
+    padding: 20px; /* content shouldn't touch device edges */
+
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	display: block;
+}
+
 .headshot{
 margin-top: -6em;
 }
@@ -15,20 +30,25 @@ margin-top: -6em;
 }
 
 .anlogo {
-display: flex;
-float: left;
-padding: .5rem;
-margin: .5rem;
-width: 60.58px;
-height: 48px;
+	margin-bottom: 10px;
+	    width: 142px;
+	    float: left;
+	    display: flex;
+	    padding: .1rem;
+	    margin: 1rem;
+	    width: 70.58px;
+	    height: 60px;
+	    padding-top: 5px;
 }
 
 ul.navmenu {
-  vertical-align: top;
-    margin-right: 1em;
-    float: right;
-    padding-left: 0;
-    margin-top: .75em;
+	padding-top: 20px;
+	    width: 25vw;
+	    vertical-align: top;
+	    margin-right: 1em;
+	    float: right;
+	    padding-left: 0;
+	    margin-top: .75em;
 }
 
 .navitem {
@@ -50,19 +70,24 @@ a.navlink {
 }
 
 .project1-image{
-width: 628.88px;
+/* width: 628.88px;
 height: 441px;
 left: 772px;
 top: 1333px;
-float: left;
+float: left; */
 }
 
 .project2-image{
-width: 789.35px;
+ /* width: 789.35px;
 height: 465px;
 left: 106.65px;
 top: 2175px;
-float: right;
+float: right; */
+}
+
+.project2-image{
+	max-width: 600px;
+	/* float: right; */
 }
 
 main {
@@ -77,6 +102,7 @@ main {
 	width: 100%;
   min-height: 500px;
   background-position-x: -60px;
+    background-position: center;
 }
 
 article .home{
@@ -96,6 +122,11 @@ section.content {
   margin: 10px auto;
 }
 
+section.content div {
+	flex: 1;
+	width: 50%;
+}
+
 .home{
 width: 1439.5px;
 height: 557.5px;
@@ -103,26 +134,24 @@ left: 1px;
 top: 616px;
 }
 
-h1{
-margin-top: 100px;
-font-family: 'Dosis', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 55px;
-line-height: 70px;
-text-align: center;
-color: #0C0B65;
+h1 {
+	font-weight: 900;
+ font-size: 3.5em;
+ line-height: 1.5em;
+ padding-top: .75em;
+ font-family: 'Dosis', sans-serif;
+ color: #0C0B65;
+ text-align: center;
 }
 
 .slogan{
-  margin-top: 20px;
-  font-family: 'Dosis', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 45px;
-  line-height: 57px;
-  text-align: center;
-  color: #0C0B65;
+	padding-top: 0;
+	font-weight: lighter;
+	font-size: 2.5em;
+	line-height: 1.65em;
+	color: #0C0B65;
+	font-family: 'Dosis', sans-serif;
+	text-align: center;
 }
 
 .right{
@@ -130,21 +159,27 @@ color: #0C0B65;
 }
 
 h2.project-head-right{
+	    font-size: 2.5em;
   font-family: 'Droid Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 48px;
   line-height: 56px;
   color: #000000;
+	    margin-right: 15em;
 }
 
 p.project-description-right{
-font-family: 'Dosis';
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 140%;
-color: #000000;
+	font-family: 'Dosis', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 140%;
+	color: #000000;
+	padding-bottom: 20px;
+	padding: 0;
+	margin-top: .25em;
+	margin-bottom: 1.5em;
+	font-size: 1.35em;
 }
 
 
@@ -156,47 +191,49 @@ h2.project-head-left{
   font-family: 'Droid Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 48px;
+    font-size: 2.5em;
   line-height: 56px;
   color: #000000;
 }
 
 p.project-description-left{
-font-family: 'Dosis', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 140%;
-color: #000000;
+	font-family: 'Dosis', sans-serif;
+	    font-style: normal;
+	    font-weight: normal;
+	    font-size: 36px;
+	    line-height: 140%;
+	    color: #000000;
+	    padding-bottom: 20px;
+	    padding: 0;
+	    margin-top: .25em;
+	    margin-bottom: 1.5em;
+	    font-size: 1.35em;
 }
 
 .CTA{
-background: #FBD3DB;
-padding: 10px 15px;
-border-radius: 46px;
-font-family: 'Montserrat', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 22px;
-line-height: 27px;
-align-items: center;
-text-align: center;
-color: #000000;
-
+	font-weight: 700;
+	font-size: .88em;
+	background: #FBD3DB;
+	padding: 12px 16px;
+	border-radius: 46px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	line-height: 27px;
+	align-items: center;
+	text-align: center;
 }
 
 .CTA.alt{
-background: #B3D8E6;
-border-radius: 36px;
-padding: 10px 15px;
-font-family: 'Montserrat', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 22px;
-line-height: 27px;
-align-items: center;
-text-align: center;
-color: #000000;
+	font-weight: 700;
+	font-size: .88em;
+	padding: 12px 16px;
+	border-radius: 46px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	line-height: 27px;
+	align-items: center;
+	text-align: center;
+	background: #B3D8E6;
 }
 
 .project1image{
@@ -207,9 +244,7 @@ left: 772px;
 top: 1333px;
 }
 
-.project2-image{
-  max-width: 600px;
-}
+.
 
 .social ul li i{
   font-size: 40px;
@@ -236,7 +271,6 @@ margin: 10px 50px;
 .cs-top-image{
 	height: auto;
 	    margin: 0 auto;
-	    max-width: 90%;
     padding-bottom: .5em;
   }
 
@@ -308,14 +342,13 @@ margin-bottom: .5em;
 }
 
 .cs-text {
-font-size: 1em;
-margin-top: 0;
-margin-bottom: 1.75em;
-font-family: 'Montserrat', sans-serif;
-font-style: normal;
-font-weight: normal;
-line-height: 140%;
-
+	font-size: 1em;
+	    margin-top: 0;
+	    margin-bottom: 1.2em;
+	    font-family: 'Montserrat', sans-serif;
+	    font-style: normal;
+	    font-weight: normal;
+	    line-height: 140%;
 }
 
 .survey-result-img{
@@ -354,10 +387,12 @@ h2 {
 }
 
 .cs-specs-text {
-    color: #000;
-    font-size: 1em;
-    line-height: 1.5em;
-    font-family: 'Montserrat', sans-serif;
+	padding-top: .5px;
+	    color: #000;
+	    font-size: 1em;
+	    line-height: 140%;
+	    font-family: 'Montserrat', sans-serif;
+	    margin-bottom: 1em;
 }
 
 .specs-list1 {
@@ -394,6 +429,15 @@ h2 {
   text-align: center;
   color: #000000;
   background-color: #79CEC7;
+	    box-shadow: 0px 4px 4px #00000040;
+}
+
+a:hover{
+	font-size: 16px;
+}
+
+.CTA:hover{
+	font-size: 16px;
 }
 
 .competitors {
@@ -467,7 +511,6 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .cs-el-visualdesign {
-    max-width: 60%;
     height: auto;
     margin: 0 auto;
     padding-top: 2em;
@@ -516,6 +559,9 @@ img {
     width: auto;
     max-width: 100%;
     height: auto;
+		margin: 0 auto;
+display: block;
+	/*	padding-left: 65px; */
 	}
 
 .competitive-logo {
@@ -526,8 +572,6 @@ img {
 }
 
 footer.footer-main {
-background-color: #B3D8E6;
-display: inline-block;
 width: 100%;
 position: relative;
 bottom: -.5em;
@@ -541,11 +585,11 @@ li.footer-social {
 
 ul.footer-info {
     float: right;
-    margin: .75em 1em .75em;
+    1em 0.5em .75em;
 }
 
 p.footer-text {
-font-size: .88em;
+font-size: 1em;
 margin-top: 1.6em;
 margin-left: 1em;
 text-align: left;
@@ -617,11 +661,16 @@ font-family: 'Dosis', sans-serif;
     font-family: "Font Awesome 5 Brands";
 		color: black;
 		width: 40px;
+		font-size: 40px;
+    width: 60px !important;
+    color: black;
 	}
 
 	.far {
-    color: black;
+		font-size: 40px;
+    width: 60px !important;
     font-weight: 400;
+		color: black;
 	}
 
 .survey-results {
@@ -656,7 +705,6 @@ anchor a {
 	.overview {
     display: flex;
 		flex-direction: row;
-    flex-direction: column;
     justify-content: center;
     text-align: center;
 }
@@ -673,6 +721,32 @@ anchor a {
     border-radius: 3px;
 	}
 
-@media only screen and (min-width: 40rem)
+	.page-divider {
+    border-bottom: 1px solid #ddd;
+	}
+
+	.hello {
+	    margin: 0 22% 10%;
+	    padding-top: 10%;
+	}
+
+@media only screen and (min-width: 1024px)
  {
+
   }
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+
+	}
+
+	@media only screen and (max-width: 768px) {
+		section.content div {
+			    width: 100%;
+					flex: none;
+					margin-bottom:10px;
+			}
+
+			section.content {
+				display: block;
+			}
+	  }
