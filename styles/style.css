@@ -66,7 +66,7 @@ padding: 0;
 a.navlink {
     display: inline;
     text-decoration: none;
-    color: #008DFE;
+    color:#0c0b65
 }
 
 .project1-image{
@@ -93,16 +93,6 @@ float: right; */
 main {
   width: 100%;
   display: block;
-}
-
-.hero {
-	background-image: url(../images/brooklynskyline.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-  min-height: 500px;
-  background-position-x: -60px;
-    background-position: center;
 }
 
 article .home{
@@ -135,23 +125,14 @@ top: 616px;
 }
 
 h1 {
-	font-weight: 900;
- font-size: 3.5em;
- line-height: 1.5em;
- padding-top: .75em;
- font-family: 'Dosis', sans-serif;
- color: #0C0B65;
- text-align: center;
-}
-
-.slogan{
-	padding-top: 0;
-	font-weight: lighter;
-	font-size: 2.5em;
-	line-height: 1.65em;
-	color: #0C0B65;
-	font-family: 'Dosis', sans-serif;
-	text-align: center;
+	margin-left: .05em;
+    text-align: left;
+    font-weight: 600;
+    font-size: 2.5em;
+    line-height: 1.5em;
+    padding-top: .75em;
+    font-family: 'Dosis', sans-serif;
+    color: #0C0B65;
 }
 
 .right{
@@ -606,7 +587,7 @@ font-family: 'Dosis', sans-serif;
 }
 
 .astral {
-    color: #396F91;
+    color: #0C0B65;
     padding-bottom: .5em;
     margin-bottom: 0;
 }
@@ -653,7 +634,7 @@ font-family: 'Dosis', sans-serif;
 }
 
 .about-background {
-    background-color: #EDF4F5;
+    background-color: #edf4f547;
     width: 100%;
 }
 
@@ -726,9 +707,10 @@ anchor a {
 	}
 
 	.hello {
-	    margin: 0 22% 10%;
-	    padding-top: 10%;
+		margin: 0 18% 15%;
+    padding-top: 20%;
 	}
+
 
 @media only screen and (min-width: 1024px)
  {
