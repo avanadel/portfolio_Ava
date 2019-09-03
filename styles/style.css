@@ -59,7 +59,7 @@ font-family: 'Droid Sans', sans-serif;
 text-decoration: none;
 font-size: 18px;
 text-align: right;
-letter-spacing: 0.15em
+letter-spacing: 0.15em;
 padding: 0;
 }
 
@@ -67,22 +67,6 @@ a.navlink {
     display: inline;
     text-decoration: none;
     color:#0c0b65
-}
-
-.project1-image{
-/* width: 628.88px;
-height: 441px;
-left: 772px;
-top: 1333px;
-float: left; */
-}
-
-.project2-image{
- /* width: 789.35px;
-height: 465px;
-left: 106.65px;
-top: 2175px;
-float: right; */
 }
 
 .project2-image{
@@ -225,7 +209,6 @@ left: 772px;
 top: 1333px;
 }
 
-.
 
 .social ul li i{
   font-size: 40px;
@@ -427,7 +410,6 @@ a:hover{
 
 .competitive-logo{
 display: inline-block;
-float: right;
 width: 10%;
 padding: .25em .5em;
 }
@@ -547,7 +529,6 @@ display: block;
 
 .competitive-logo {
     display: inline-block;
-    float: right;
     width: 20%;
     padding: .25em .5em;
 }
@@ -566,7 +547,7 @@ li.footer-social {
 
 ul.footer-info {
     float: right;
-    1em 0.5em .75em;
+    margin: 1em 0.5em .75em;
 }
 
 p.footer-text {
