@@ -4,7 +4,7 @@
 }
 
 #mobile-menu-toggler {display: none; float: right; text-decoration: none; cursor: pointer; font-size: 30px; font-weight: bold; color: black !important; height: 2em !important;}
-#mobile-menu-toggler span.mobile-menu-icon::before, #mobile-menu-toggler span.mobile-menu-icon::after, #mobile-menu-toggler span.mobile-menu-icon {display: inline-block; background: black !important;}
+#mobile-menu-toggler span.mobile-menu-icon::before, #mobile-menu-toggler span.mobile-menu-icon::after, #mobile-menu-toggler span.mobile-menu-icon {display: inline-block; background: black !important; height: 50px; width: 50px; }
 #mobile-menu #mobile-menu-toggler span.mobile-menu-icon,
 #mobile-menu #mobile-menu-toggler span.mobile-menu-icon::before,
 #mobile-menu #mobile-menu-toggler span.mobile-menu-icon::after {
@@ -242,6 +242,7 @@ p.project-description-left{
 	line-height: 27px;
 	align-items: center;
 	text-align: center;
+	text-decoration: none;
 }
 
 .CTA.alt{
@@ -255,6 +256,7 @@ p.project-description-left{
 	align-items: center;
 	text-align: center;
 	background: #B3D8E6;
+	text-decoration: none;
 }
 
 .project1image{
@@ -450,6 +452,7 @@ h2 {
   color: #000000;
   background-color: #79CEC7;
 	    box-shadow: 0px 4px 4px #00000040;
+			text-decoration: none;
 }
 
 a:hover{
@@ -603,7 +606,7 @@ li.footer-social {
 
 ul.footer-info {
     float: right;
-    margin: 1em 0.5em .75em;
+    margin: -2em -2em -2em;
 }
 
 p.footer-text {
@@ -648,6 +651,7 @@ font-family: 'Dosis', sans-serif;
     margin: -.5em auto 0;
     padding-top: 28px;
     padding-bottom: 15px;
+		text-decoration: none;
 }
 
 .about-button {
@@ -660,6 +664,7 @@ font-family: 'Dosis', sans-serif;
     color: #000;
     margin-top: -2em;
     font-family: 'Montserrat', sans-serif;
+		text-decoration: none;
   }
 
   .about-top {
@@ -678,14 +683,14 @@ font-family: 'Dosis', sans-serif;
 .fab {
     font-family: "Font Awesome 5 Brands";
 		color: black;
-		width: 40px;
-		font-size: 40px;
+		width: 30px;
+		font-size: 30px;
     width: 60px !important;
     color: black;
 	}
 
 	.far {
-		font-size: 40px;
+		font-size: 30px;
     width: 60px !important;
     font-weight: 400;
 		color: black;
