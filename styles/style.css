@@ -4,7 +4,7 @@
 }
 
 #mobile-menu-toggler {display: none; float: right; text-decoration: none; cursor: pointer; font-size: 30px; font-weight: bold; color: black !important; height: 2em !important;}
-#mobile-menu-toggler span.mobile-menu-icon::before, #mobile-menu-toggler span.mobile-menu-icon::after, #mobile-menu-toggler span.mobile-menu-icon {display: inline-block; background: black !important; height: 50px; width: 50px; }
+#mobile-menu-toggler span.mobile-menu-icon::before, #mobile-menu-toggler span.mobile-menu-icon::after, #mobile-menu-toggler span.mobile-menu-icon {display: inline-block; background: black !important;}
 #mobile-menu #mobile-menu-toggler span.mobile-menu-icon,
 #mobile-menu #mobile-menu-toggler span.mobile-menu-icon::before,
 #mobile-menu #mobile-menu-toggler span.mobile-menu-icon::after {
@@ -168,8 +168,8 @@ h1 {
 	margin-left: .05em;
     text-align: left;
     font-weight: 600;
-    font-size: 2.5em;
-    line-height: 1.5em;
+    font-size: 1.75em;
+    line-height: 140%;
     padding-top: .75em;
     font-family: 'Dosis', sans-serif;
     color: #0C0B65;
@@ -330,7 +330,6 @@ color: #000000;
 }
 
 .cs-container-summary {
-    display: flex;
     width: 100%;
 }
 
@@ -358,7 +357,7 @@ margin-bottom: .5em;
 
 .cs-head {
 	font-weight: bold;
-    margin-top: 2em;
+    margin-top: 1em;
     margin-bottom: 1.25em;
 		font-family: 'Droid Sans', sans-serif;
 }
@@ -374,20 +373,25 @@ margin-bottom: .5em;
 }
 
 .survey-result-img{
-    line-height: 1.5em;
-    font-weight: 400;
-    float: right;
-    width: 40%;
-  }
+	margin-bottom: 1.5em;
+	margin-right: 5em;
+	padding-left: 2em;
+	line-height: 1.5em;
+	font-weight: 400;
+	float: right;
+	width: 60%;
+}
+
 
 .cs-section-head {
+	font-size: 24px;
 	font-weight: bold;
-    margin-top: .5em;
-    color: #000;
-    padding-bottom: .50em;
-    margin-bottom: .10em;
-    padding-top: 20px;
-		font-family: 'Droid Sans', sans-serif;
+	    margin-top: .5em;
+	    color: #000;
+	    padding-bottom: 2em;
+	    margin-bottom: 1em;
+	    padding-top: 30px;
+	    font-family: 'Droid Sans', sans-serif;
 }
 
 h2 {
@@ -440,6 +444,8 @@ h2 {
 }
 
 .cs-button {
+	position: relative;
+left: 41%;
   border-radius: 30px;
   padding: 10px 20px;
   font-family: 'Montserrat', sans-serif;
@@ -465,6 +471,7 @@ a:hover{
 
 .competitors {
     display: inline-block;
+		    margin-top: 2em;
 }
 
 .competitive-logo{
@@ -557,7 +564,7 @@ font-family: 'Montserrat', sans-serif;
     margin-bottom: 1.5em;
     vertical-align: top;
     margin-top: 0;
-    width: 80%;
+    width: 100%;
    font-family: 'Montserrat', sans-serif;
 }
 
@@ -726,7 +733,6 @@ anchor a {
 	}
 
 	.overview {
-    display: flex;
 		flex-direction: row;
     justify-content: center;
     text-align: center;
