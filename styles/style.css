@@ -318,20 +318,23 @@ font-style: normal;
     margin: 2em;
     text-align: center;
     font-size: 1.75em;
-    font-weight: bold;
+    font-weight: 500;
     align-items: center;
 		font-family: 'Montserrat', sans-serif;
 }
 
 .cs1-project-hierarchy{
-height: 25px;
-left: 102px;
-font-family: 'Dosis', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 32px;
-line-height: 46px;
-color: #000000;
+	padding-right: 10px;
+	    align-items: center;
+	    font-family: 'Dosis', sans-serif;
+	    font-style: normal;
+	    font-weight: normal;
+	    font-size: 32px;
+	    line-height: 46px;
+	    color: #000000;
+	    text-align: center;
+	    margin: 1rem;
+	}
 }
 
 .cs-container-summary {
@@ -488,7 +491,7 @@ padding: .25em .5em;
 .ca-images {
 	  padding: .25em .5em;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     max-width: 80%;
     margin: 0 auto;
