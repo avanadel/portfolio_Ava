@@ -290,7 +290,7 @@ margin: 10px 50px;
 .cs-container-title{
   margin: 5em auto 3em;
     padding-top: 2em;
-    max-width: 50em;
+    max-width: 100%;
     padding-left: 3em;
     padding-right: 3em
 }
@@ -453,7 +453,7 @@ h2 {
 
 .cs-button {
 	position: relative;
-left: 41%;
+left: 30%;
   border-radius: 30px;
   padding: 10px 20px;
   font-family: 'Montserrat', sans-serif;
@@ -621,7 +621,7 @@ li.footer-social {
 
 ul.footer-info {
     float: right;
-    margin: -2em -2em -2em;
+    margin: .1em .1em .1em;
 }
 
 p.footer-text {
@@ -752,7 +752,6 @@ anchor a {
     align-items: center;
     padding: 2rem;
     margin: 2rem;
-    width: 80%;
     background: #FBD3DB;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 3px;
