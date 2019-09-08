@@ -8,7 +8,7 @@
 #mobile-menu li {font-size: 13px; display: inline-block; float: right; vertical-align: top; padding-left: 10%;
 }
 
-#mobile-menu-toggler {display: none; float: right; text-decoration: none; cursor: pointer; font-size: 12px; font-weight: bold; color: #0c0b65 !important; height: 2em !important;}
+#mobile-menu-toggler {display: none; float: right; text-decoration: none; cursor: pointer; font-size: 16px; font-family: 'Dosis', sans-serif; font-weight: bold; color: #0c0b65 !important; height: 2em !important;}
 #mobile-menu-toggler span.mobile-menu-icon::before, #mobile-menu-toggler span.mobile-menu-icon::after, #mobile-menu-toggler span.mobile-menu-icon {display: inline-block; width: 15px; height: 2px; background: black !important;}
 #mobile-menu #mobile-menu-toggler span.mobile-menu-icon,
 #mobile-menu #mobile-menu-toggler span.mobile-menu-icon::before,
@@ -240,6 +240,7 @@ p.project-description-left{
 	font-weight: 700;
 	font-size: .88em;
 	background: #FBD3DB;
+	color: black;
 	padding: 12px 16px;
 	border-radius: 46px;
 	font-family: 'Montserrat', sans-serif;
@@ -452,15 +453,13 @@ h2 {
 }
 
 .cs-button {
-	position: relative;
-left: 30%;
+
   border-radius: 30px;
   padding: 10px 20px;
   font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 27px;
+	display: inline-block;
   align-items: center;
   text-align: center;
   color: #000000;
@@ -673,7 +672,7 @@ font-family: 'Dosis', sans-serif;
     border: none;
     padding: 11px 14px;
     font-size: .88em;
-    background-color: #F87F89;
+    background-color: #7FE6F8;
     font-weight: 700;
     text-decoration: none;
     color: #000;
@@ -785,5 +784,6 @@ anchor a {
 
 			section.content {
 				display: block;
+				text-align: center;
 			}
 	  }
