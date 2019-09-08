@@ -765,6 +765,11 @@ anchor a {
     padding-top: 20%;
 	}
 
+	.cs-container-summary a {
+    margin: 0 auto;
+    display: table;
+}
+
 
 @media only screen and (min-width: 1024px)
  {
