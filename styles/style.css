@@ -83,6 +83,7 @@ body{
 
 .headshot{
 margin-top: -6em;
+    width: 75%;
 }
 
 .about-content {
@@ -404,9 +405,9 @@ margin-bottom: .5em;
 }
 
 h2 {
-    font-family: 'Droid-sans', sans-serif;
-    font-size: 2.5em;
-    font-weight: 400;
+	font-family: 'Droid-sans', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
 }
 
 .cs-specs-head1 {
@@ -607,9 +608,9 @@ display: block;
 }
 
 footer.footer-main {
-width: 100%;
-position: relative;
-bottom: -.5em;
+	margin-bottom: 30px;
+	position: relative;
+	bottom: -.5em;
 }
 
 li.footer-social {
@@ -624,11 +625,12 @@ ul.footer-info {
 }
 
 p.footer-text {
-font-size: 1em;
-margin-top: 1.6em;
-margin-left: 1em;
-text-align: left;
-font-family: 'Dosis', sans-serif;
+	display: inline-block;
+	font-size: 1em;
+	margin-top: .5em;
+	margin-left: 1em;
+	text-align: left;
+	font-family: 'Dosis', sans-serif;
 }
 
   p {
@@ -641,20 +643,21 @@ font-family: 'Dosis', sans-serif;
 }
 
 .astral {
-    color: #0C0B65;
-    padding-bottom: .5em;
-    margin-bottom: 0;
+	color: #0C0B65;
+padding-bottom: .5em;
+margin-bottom: 0;
+margin-top: 10px;
 }
 
 .about-text {
-    font-size: 1.125em;
+    font-size: 14px;
     line-height: 1.5em;
     margin-top: 0;
     font-family: 'Droid Sans', sans-serif;
 }
 
 .about-text-bottom {
-    font-size: 1.125em;
+    font-size: 14px;
     line-height: 1.5em;
     margin-top: 0;
     font-family: 'Droid Sans', sans-serif;
