@@ -780,11 +780,11 @@ anchor a {
 
   }
 
-@media only screen and (min-width: 481px) and (max-width: 768px){
+@media only screen and (min-width: 375px) and (max-width: 500px){
 	ul.footer-info {
 		width: 45%;
 }
-	]
+}
 	p.footer-text {
 	width: 46%;
 	}
