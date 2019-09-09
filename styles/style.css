@@ -783,12 +783,24 @@ anchor a {
 @media only screen and (min-width: 375px) and (max-width: 500px){
 	ul.footer-info {
 		width: 52%;
+		font-size: 11px;
 }
 }
 	p.footer-text {
 	width: 43%;
+	font-size: .7em;
 	}
 
+
+	.fab{
+		font-size: 18px;
+	}
+
+	.far{
+		font-size: 18px;
+	}
+
+}
 	}
 
 	@media only screen and (max-width: 768px) {
@@ -799,7 +811,6 @@ anchor a {
 			}
 				ul.footer-info {
 					width: 45%;
-
 			}
 ]
 			p.footer-text {
