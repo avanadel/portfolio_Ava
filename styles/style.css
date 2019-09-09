@@ -620,14 +620,12 @@ li.footer-social {
 }
 
 ul.footer-info {
-	width: 45%;
 margin-top: 10px;
 float: right;
 margin: .1em .1em .1em;
 }
 
 p.footer-text {
-	width: 46%;
 	display: inline-block;
 	font-size: 1em;
 	margin-top: .5em;
@@ -783,6 +781,13 @@ anchor a {
   }
 
 @media only screen and (min-width: 481px) and (max-width: 768px){
+	ul.footer-info {
+		width: 45%;
+}
+	]
+	p.footer-text {
+	width: 46%;
+	}
 
 	}
 
@@ -791,6 +796,14 @@ anchor a {
 			    width: 100%;
 					flex: none;
 					margin-bottom:10px;
+			}
+				ul.footer-info {
+					width: 45%;
+
+			}
+]
+			p.footer-text {
+				width: 46%;
 			}
 
 			section.content {
