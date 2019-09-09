@@ -620,14 +620,14 @@ li.footer-social {
 }
 
 ul.footer-info {
-	    width: 45%;
-		margin-top: 10px;
-    float: right;
-    margin: .1em .1em .1em;
+	width: 45%;
+margin-top: 10px;
+float: right;
+margin: .1em .1em .1em;
 }
 
 p.footer-text {
-	width: 50%;
+	width: 46%;
 	display: inline-block;
 	font-size: 1em;
 	margin-top: .5em;
@@ -705,13 +705,13 @@ margin-top: 10px;
 		color: black;
 		width: 30px;
 		font-size: 30px;
-    width: 60px !important;
+    width: 50px !important;
     color: black;
 	}
 
 	.far {
 		font-size: 30px;
-    width: 60px !important;
+    width: 10px !important;
     font-weight: 400;
 		color: black;
 	}
