@@ -5,9 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles/reset.css">
   <link rel="stylesheet" type="text/css" href="styles/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <script src="js/jQuery.js"></script>
   </head>
 
 <body>
@@ -43,7 +46,7 @@
 <img class="headshot" src="images/headshot.png" alt="Ava Nadel">
 
   <h2 class="astral space-top1">
-    "Sociology and tech." August 15th. A simple Google search was all it took. </h2>
+    August 15th. "Sociology and tech." A simple Google searched was all it took. </h2>
   <p class ="about-text">
 </p>
 
@@ -116,7 +119,7 @@ I seek to further foster a user base that rises above biases, removes complacenc
         //show toggler if not exists
         if (!($("#mobile-menu-toggler").length > 0)) {
             var mobilemenuheight = $('#mobile-menu').height();
-            var toggler = "<a id='mobile-menu-toggler' onclick='mobilemenutoggle();' style='height: " + mobilemenuheight + "px; line-height: " + (mobilemenuheight - 1) + "px;'><span class='mobile-menu-text open'></span><span class='mobile-menu-text'>MENU</span><span class='mobile-menu-icon'></span></a>";
+            var toggler = "<a id='mobile-menu-toggler' onclick='mobilemenutoggle();' style='height: " + mobilemenuheight + "px; line-height: " + (mobilemenuheight - 1) + "px;'><span class='mobile-menu-text open'></span><span class='mobile-menu-text'></span><span class='mobile-menu-icon'></span></a>";
             $("#mobile-menu").prepend(toggler);
         }
     }

@@ -399,7 +399,7 @@ margin-bottom: .5em;
 	    margin-top: .5em;
 	    color: #000;
 	    padding-bottom: 2em;
-	    margin-bottom: 1em;
+	    margin-bottom: .1em;
 	    padding-top: 30px;
 	    font-family: 'Droid Sans', sans-serif;
 }
@@ -781,6 +781,15 @@ anchor a {
   }
 
 @media only screen and (min-width: 375px) and (max-width: 500px){
+
+.project2-image{
+max-width: 600px;
+}
+
+.project1-image{
+	max-width: 600px;
+}
+
 	ul.footer-info {
 		width: 52%;
 		font-size: 11px;
@@ -799,6 +808,14 @@ anchor a {
 		font-size: 18px;
 	}
 
+.anlogo{
+	width: 50px;
+    height: 40px;
+}
+
+.cs-persona-text{
+	font-size: 12px;
+	margin-right: 5em;
 }
 	}
 
