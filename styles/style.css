@@ -337,7 +337,6 @@ font-style: normal;
 	    text-align: center;
 	    margin: 1rem;
 	}
-}
 
 .cs-container-summary {
     width: 100%;
@@ -836,7 +835,7 @@ section.content div {
 	font-size: 12px;
 	margin-right: 5em;
 }
-	}
+
 
 	@media only screen and (max-width: 768px) {
 		section.content div {
@@ -847,7 +846,7 @@ section.content div {
 				ul.footer-info {
 					width: 45%;
 			}
-]
+
 			p.footer-text {
 				width: 46%;
 			}
