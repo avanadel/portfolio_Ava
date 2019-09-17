@@ -849,8 +849,14 @@ section.content div {
 
 
 	@media only screen and (max-width: 768px) {
+
+
+    section.content2 div{
+      flex: none;
+      margin: 10px auto;
+    }
+
 		section.content div {
-			    width: 100%;
 					flex: none;
           margin: 10px auto;
 			}
