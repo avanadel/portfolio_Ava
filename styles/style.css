@@ -482,15 +482,21 @@ h2 {
 }
 
 a:hover{
-  font-size: 22px;
+  color: #843386;
+font-weight: bolder;
 }
 
 .button:hover {
-	font-size: 16px;
+	color: #2633B4;
 }
 
 .CTA:hover{
-	font-size: 16px;
+	color: #2633B4;
+}
+
+.cs-button:hover {
+  color: #2633B4;
+  font-weight: 900;
 }
 
 .competitors {
