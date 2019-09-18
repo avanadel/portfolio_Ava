@@ -534,7 +534,6 @@ width: 120%;
 }
 
 .cs-prebullet-text {
-padding-right: 40%;
 font-size: 1em;
 line-height: 1.5em;
 margin-top: 0;
@@ -542,9 +541,18 @@ margin-bottom: .5em;
 font-family: 'Montserrat', sans-serif;
 }
 
+.cs-head2 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1.25em;
+    font-family: 'Droid Sans', sans-serif;
+}
+
 .cs-list {
-    margin-bottom: 2em;
-    padding-left: 1.25em;
+  text-align: center;
+margin-bottom: 2em;
+padding-left: 5em;
 }
 
 .cs-text-list {
@@ -594,7 +602,11 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .sitemap-img{
-  width: 550px;
+  width: 530px;
+}
+
+.logo-design-img{
+  width: 530px;
 }
 
 .cs-persona-text{
@@ -615,16 +627,23 @@ p {
 }
 
 .cs-persona-pic {
-    padding-top: 0;
-    padding-right: 0;
-    margin-right: 10px;
-    float: left;
-    padding-left: 0;
-    margin-left: 0;
-    vertical-align: top;
-    width: 10%;
+  display: flex;
+  flex-direction: column;
+  vertical-align: top;
+  width: 15%;
 }
 
+.homepage-1{
+  width: 290px;
+}
+
+.create-acct-1{
+  width: 290px;
+}
+
+.share-work-draft{
+  width: 290px;
+}
 /* make all images responsive */
 img {
 
