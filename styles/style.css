@@ -61,10 +61,10 @@ transform-origin: 50% 50%;
 
 *{box-sizing: border-box}
 
-body{
+html,
+body {
     overflow-x: hidden;
-	font-family:xxx;
-	font-size: 14px;
+	  font-size: 14px;
 }
 
 #wrapper {
