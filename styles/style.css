@@ -62,6 +62,7 @@ transform-origin: 50% 50%;
 *{box-sizing: border-box}
 
 body{
+    overflow-x: hidden;
 	font-family:xxx;
 	font-size: 14px;
 }
@@ -74,10 +75,6 @@ body{
 
     padding: 20px; /* content shouldn't touch device edges */
 
-}
-
-html {
-  overflow-x: hidden;
 }
 
 @-ms-viewport{
@@ -890,6 +887,23 @@ section.content div {
 
 
 	@media only screen and (max-width: 768px) {
+
+
+    .fab {
+        font-family: "Font Awesome 5 Brands";
+    		color: black;
+    		width: 30px;
+    		font-size: 14px;
+        width: 50px !important;
+        color: black;
+    	}
+
+    	.far {
+    		font-size: 14px;
+        width: 10px !important;
+        font-weight: 400;
+    		color: black;
+    	}
 
     .project2-text{
       width: 50%;
