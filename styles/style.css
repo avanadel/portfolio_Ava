@@ -66,6 +66,7 @@ body {
 	  font-size: 14px;
 }
 
+
 #wrapper {
 
     max-width: 1024px; /* or whatever max size */
@@ -81,7 +82,7 @@ body {
 }
 
 .container{
-	max-width: 1200px;
+	max-width: 100%;
 	margin: 0 auto;
 	display: block;
 }
@@ -148,22 +149,19 @@ article .home{
 }
 
 section.content {
-  width: 100%;
   display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 50px auto;
 }
 
 section.content2 {
   flex-direction: row-reverse;
   position: relative;
-left: 300px;
-width: 100%;
 display: flex;
 justify-content: space-between;
-max-width: 1200px;
+max-width: 100%;
 margin: 50px auto;
 }
 
@@ -928,12 +926,14 @@ section.content div {
 			}
 
 			section.content {
+        max-width: 100%;
         margin: 0 auto;
 				display: flex;
         flex-direction: column-reverse;
 			}
 
       section.content2 {
+        max-width: 100%;
         margin-left: 0 auto;
         left: 0;
         margin: 0 auto;
