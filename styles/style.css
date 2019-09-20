@@ -59,6 +59,13 @@ transform-origin: 50% 50%;
         #mobile-menu li {display: block;}
 }
 
+@media only screen and (min-width: 375px) and (max-width: 500px){
+  mobile-menu-toggler {display: block;}
+  #mobile-menu ul {clear: left; display: none;}
+  #mobile-menu.open ul {display: block;}
+  #mobile-menu li {display: block;}
+}
+
 *{box-sizing: border-box}
 
 body {
@@ -78,7 +85,7 @@ body {
 }
 
 @-ms-viewport{
-  width: device-width;
+  width: device-Width;
 }
 
 .container{
@@ -306,7 +313,7 @@ margin: 10px 50px;
 }
 
 .cs-top-image{
-  width: 280px;
+max-width: 100%;
 	height: auto;
 	    margin: 0 auto;
     padding-bottom: .5em;
@@ -574,7 +581,7 @@ padding-left: 5em;
 }
 
 .cs-el-visualdesign {
-  width: 300px;
+max-width: 100%;
     height: auto;
     margin: 0 auto;
     padding-top: 2em;
@@ -583,11 +590,19 @@ padding-left: 5em;
 }
 
 .edulife-moodboard-img{
-  width: 312px;
+  max-width: 100%;
+}
+
+.poppins-img{
+  max-width: 100%;
+}
+
+.roboto-img{
+  max-width: 100%;
 }
 
 .user-flow-img{
-  width: 530px;
+  max-width: 100%;
     background-image: url(../edulifeuserflow.png);
     background-size: cover;
     min-height: 10em;
@@ -597,7 +612,11 @@ padding-left: 5em;
 }
 
 .sitemap-img{
-  width: 530px;
+  max-width: 100%;
+}
+
+.colorpalette-img{
+  max-width: 100%;
 }
 
 .logo-design-img{
@@ -629,15 +648,15 @@ p {
 }
 
 .homepage-1{
-  width: 290px;
+max-width: 100%;
 }
 
 .create-acct-1{
-  width: 290px;
+  max-width: 100%;
 }
 
 .share-work-draft{
-  width: 290px;
+max-width: 100%;
 }
 /* make all images responsive */
 img {
@@ -834,22 +853,18 @@ anchor a {
 
 @media only screen and (min-width: 375px) and (max-width: 500px){
 
-  body {
-      overflow: hidden!important;
-  }
-
 	ul.footer-info{
 	    width: 52%;
 	    font-size: 11px;
 	}
 
 	.project2-image{
-	max-width: 185px;
+	max-width: 100%;
 	padding-left: 11px;
 	}
 
 	.project1-image{
-		max-width: 135px;
+		max-width: 100%;
 		padding-right: 15px;
 	}
 }
@@ -888,6 +903,10 @@ section.content div {
 
 
 	@media only screen and (max-width: 768px) {
+
+    body {
+        overflow: hidden!important;
+    }
 
     .fab {
         font-family: "Font Awesome 5 Brands";
@@ -942,16 +961,10 @@ section.content div {
       }
 
 		    .project2-image{
-		max-width: 300px;
+		max-width: 100%;
 		}
 
 		  .project1-image{
-			max-width: 135px;
+			max-width: 100%;
 		}
 	}
-
-  @media screen and (max-width: 375px) {
-   body {
-       overflow: hidden!important;
-   }
-}
