@@ -911,15 +911,14 @@ section.content div {
     .fab {
         font-family: "Font Awesome 5 Brands";
     		color: black;
-    		width: 30px;
     		font-size: 14px;
-        width: 50px !important;
+      width: auto !important;
         color: black;
     	}
 
     	.far {
     		font-size: 14px;
-        width: 10px !important;
+      width: auto !important;
         font-weight: 400;
     		color: black;
     	}
