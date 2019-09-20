@@ -210,6 +210,15 @@ h2.project-head-right{
 	margin-right: 0;
 }
 
+h2.project-head-left{
+  font-family: 'Droid Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+    font-size: 2.5em;
+  line-height: 56px;
+  color: #000000;
+}
+
 p.project-description-right{
 	font-family: 'Dosis', sans-serif;
 	font-style: normal;
@@ -229,14 +238,7 @@ p.project-description-right{
   flex-basis: 0 0 1;
 }
 
-h2.project-head-left{
-  font-family: 'Droid Sans', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-    font-size: 2.5em;
-  line-height: 56px;
-  color: #000000;
-}
+
 
 p.project-description-left{
 	font-family: 'Dosis', sans-serif;
