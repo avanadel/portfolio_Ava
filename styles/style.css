@@ -686,7 +686,6 @@ li.footer-social {
 }
 
 ul.footer-info {
-width: 15%;;
 margin-top: 10px;
 float: right;
 margin: .1em .1em .1em;
@@ -856,7 +855,7 @@ anchor a {
 @media only screen and (min-width: 375px) and (max-width: 500px){
 
 	ul.footer-info{
-	    width: 52%;
+	    width: 29%;;
 	    font-size: 11px;
 	}
 
@@ -937,9 +936,6 @@ section.content div {
 		section.content div {
 					flex: none;
           margin: 10px auto;
-			}
-				ul.footer-info {
-					width: 30%;
 			}
 
 			p.footer-text {
