@@ -855,6 +855,19 @@ anchor a {
 
 @media only screen and (min-width: 375px) and (max-width: 500px){
 
+  .navitem {
+    width: 100%;
+    display: block;
+    color: black;
+    margin-right: -.1em;
+    font-family: 'Droid Sans', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: right;
+    letter-spacing: 0.15em;
+    padding: 5px;
+}
+
   a.navlink {
     display: block;
     text-decoration: none;
