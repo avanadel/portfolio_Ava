@@ -153,7 +153,6 @@ section.content {
 }
 
 section.content2 {
-  flex-direction: row-reverse;
   position: relative;
 display: flex;
 justify-content: space-between;
@@ -833,6 +832,11 @@ anchor a {
 
 @media only screen and (min-width: 1024px)
  {
+   #wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
   }
 
 	@media only screen and (min-width: 768px) and (max-width: 1024px){
@@ -976,7 +980,6 @@ anchor a {
 		  .project1-image{
 			max-width: 100%;
 		}
-	}
 
 @media screen and (max-width: 767px) {
         #mobile-menu-toggler {display: block;}
@@ -990,4 +993,5 @@ anchor a {
   #mobile-menu ul {clear: left; display: none;}
   #mobile-menu.open ul {display: block;}
   #mobile-menu li {display: block;}
+}
 }
