@@ -980,8 +980,7 @@ anchor a {
 }
 
 @media screen and (max-width: 1024px) {
-  #mobile-menu-toggler {
-display: none;
+  #mobile-menu-toggler {display: none;}
 }
 
 
