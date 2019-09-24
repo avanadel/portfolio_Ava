@@ -832,11 +832,6 @@ anchor a {
 
 @media only screen and (min-width: 1024px)
  {
-   #wrapper {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-}
   }
 
 	@media only screen and (min-width: 768px) and (max-width: 1024px){
@@ -988,10 +983,17 @@ anchor a {
         #mobile-menu li {display: block;}
 }
 
+@media screen and (max-width: 1024px) {
+  #mobile-menu-toggler {
+display: none;
+}
+
+
 @media only screen and (min-width: 375px) and (max-width: 500px){
-  mobile-menu-toggler {display: block;}
+  #mobile-menu-toggler {display: block;}
   #mobile-menu ul {clear: left; display: none;}
   #mobile-menu.open ul {display: block;}
   #mobile-menu li {display: block;}
 }
+
 }
