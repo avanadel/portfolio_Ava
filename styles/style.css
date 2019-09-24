@@ -5,7 +5,7 @@
 
 #mobile-menu {overflow: hidden;}
 #mobile-menu ul {font-size: 0;}
-#mobile-menu li {font-size: 13px; display: inline-block; float: right; vertical-align: top; padding-left: 10%;
+#mobile-menu li {font-size: 13px; display: inline-block; float: right; vertical-align: top; padding-left: 10%;}
 }
 
 #mobile-menu-toggler {display: block; float: right; text-decoration: none; cursor: pointer; font-size: 16px; font-family: 'Dosis', sans-serif; font-weight: bold; color: #0c0b65 !important; height: 2em !important;}
@@ -72,7 +72,7 @@ body {
 }
 
 @-ms-viewport{
-  width: device-Width;
+  {width: device-Width;}
 }
 
 .container{
@@ -908,6 +908,7 @@ anchor a {
 .user-flows-image2{
   width: 100%;
 }
+}
 
 
 	@media only screen and (max-width: 768px) {
@@ -971,6 +972,7 @@ anchor a {
 		  .project1-image{
 			max-width: 100%;
 		}
+  }
 
 @media screen and (max-width: 767px) {
         #mobile-menu-toggler {display: block;}
@@ -978,9 +980,11 @@ anchor a {
         #mobile-menu.open ul {display: block;}
         #mobile-menu li {display: block;}
 }
+}
 
 @media screen and (max-width: 1024px) {
   #mobile-menu-toggler {display: none;}
+}
 }
 
 
@@ -990,5 +994,4 @@ anchor a {
   #mobile-menu.open ul {display: block;}
   #mobile-menu li {display: block;}
 }
-
 }
