@@ -830,11 +830,12 @@ anchor a {
 }
 
 
-	@media only screen and (min-width: 768px) and (max-width: 1024px){
-		ul.footer-info {
-		    font-size: 11px;
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+
+    ul.footer-info {
+      margin-right: 3em;
+		  font-size: 11px;
 		}
-	}
 
 @media only screen and (min-width: 375px) and (max-width: 500px){
 
@@ -982,7 +983,7 @@ anchor a {
 }
 
 @media screen and (max-width: 1024px) {
-  #mobile-menu-toggler {display: none;}
+  #mobile-menu-toggler {display: block;}
 }
 }
 
