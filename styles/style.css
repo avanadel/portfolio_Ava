@@ -835,6 +835,7 @@ anchor a {
     margin: 0 auto;
     display: table;
 }
+}
 
 
 @media only screen and (max-width: 1024px) and (min-width: 768px){
@@ -843,6 +844,7 @@ anchor a {
       margin-right: 3em;
 		  font-size: 11px;
 		}
+  }
 
 @media only screen and (min-width: 375px) and (max-width: 500px){
 
@@ -915,6 +917,7 @@ anchor a {
 
 .user-flows-image2{
   width: 100%;
+}
 }
 
 
