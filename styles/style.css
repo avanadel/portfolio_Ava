@@ -923,6 +923,9 @@ anchor a {
 
 	@media only screen and (max-width: 768px) {
 
+    #mobile-menu-toggler {display: block;}
+     }
+
     body {
         overflow: hidden!important;
     }
