@@ -320,7 +320,7 @@ is a 45 year old High School Media Arts Teacher in Boston, MA. On a given weeken
           //show toggler if not exists
           if (!($("#mobile-menu-toggler").length > 0)) {
               var mobilemenuheight = $('#mobile-menu').height();
-              var toggler = "<a id='mobile-menu-toggler' onclick='mobilemenutoggle();' style='height: " + mobilemenuheight + "px; line-height: " + (mobilemenuheight - 1) + "px;'><span class='mobile-menu-text open'></span><span class='mobile-menu-text'>MENU</span><span class='mobile-menu-icon'></span></a>";
+              var toggler = "<a id='mobile-menu-toggler' onclick='mobilemenutoggle();' style='height: " + mobilemenuheight + "px; line-height: " + (mobilemenuheight - 1) + "px;'><span class='mobile-menu-text open'></span><span class='mobile-menu-text'></span><span class='mobile-menu-icon'></span></a>";
               $("#mobile-menu").prepend(toggler);
           }
       }

@@ -838,7 +838,7 @@ anchor a {
 }
 
 
-@media only screen and (max-width: 1024px) and (min-width: 768px){
+@media only screen and (max-width: 1024px) and (min-width: 767px){
 
     ul.footer-info {
       margin-right: 3em;
@@ -921,7 +921,7 @@ anchor a {
 }
 
 
-	@media only screen and (max-width: 768px) {
+	@media only screen and (max-width: 767px) {
 
     #mobile-menu-toggler {display: block;}
      }
@@ -986,13 +986,3 @@ anchor a {
 			max-width: 100%;
 		}
   }
-
-@media screen and (max-width: 1024px) {
-  #mobile-menu-toggler {display: block;}
-}
-}
-
-@media only screen and (min-width: 375px) and (max-width: 500px){
-  #mobile-menu.open ul {display: block;}
-}
-}
