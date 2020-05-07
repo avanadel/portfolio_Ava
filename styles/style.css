@@ -1,4 +1,3 @@
-
 #mobile-menu {padding: 0.25em;}
 
 /* End General Styling */
@@ -181,37 +180,64 @@ top: 616px;
 }
 
 h1 {
-	margin-left: .05em;
-    text-align: center;
-    font-weight: 600;
-    font-size: 2.5rem;
-    line-height: 4rem;
-    padding-top: .75em;
-    font-family: 'Montserrat', sans-serif;
-    color: #0C0B65;
+  color: #2e2f31;
+  font-family: 'nunito', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: .06rem;
+  line-height: normal;
+  padding: 2rem 0 .5rem 0;
+  border-bottom: .4rem solid blueviolet;
+  text-align: center;
 }
 
 .right{
   flex-basis: 1;
 }
 
-h2.project-head-right{
-	 font-size: 2.5em;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 56px;
-  color: #000000;
-	margin-right: 0;
+.colors {
+    display: grid;
+    grid-gap: 5rem;
+    padding: 2rem;
+    justify-content: center;
 }
 
-h2.project-head-left{
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-    font-size: 2.5em;
-  line-height: 56px;
-  color: #000000;
+.colors img {
+    margin: auto;
+    width: 100%;
+}
+
+.edulife-design {
+    display: grid;
+    grid-template-rows: 1fr .5fr 1fr .5fr 1fr;
+    align-items: center;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.edulife-design img {
+    display: grid;
+    grid-template-columns: 1fr .5fr 1fr .5fr 1fr;
+    align-content: center;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.three-grid img {
+    max-width: 100%;
+}
+
+.three-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+    align-items: center;
+    margin: auto;
+    padding: 3rem;
 }
 
 p.project-description-right{
@@ -233,6 +259,12 @@ p.project-description-right{
   flex-basis: 0 0 1;
 }
 
+.design-roles {
+    padding: 2rem;
+    background-color: #fff9f7;
+    box-shadow: 0px 0px 5px 0px rgba(222, 222, 223, 1);
+    border-radius: 1rem;
+}
 
 
 p.project-description-left{
@@ -249,6 +281,17 @@ p.project-description-left{
 	    font-size: 1.35em;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
+.section-less-padding {
+    display: grid;
+    max-width: 80rem;
+    margin: auto;
+    /* justify-content: center; */
+}
+
 .CTA{
 	font-weight: 700;
 	font-size: .88em;
@@ -260,19 +303,6 @@ p.project-description-left{
 	line-height: 27px;
 	align-items: center;
 	text-align: center;
-	text-decoration: none;
-}
-
-.CTA.alt{
-	font-weight: 700;
-	font-size: .88em;
-	padding: 11px 14px;
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
-	line-height: 27px;
-	align-items: center;
-	text-align: center;
-	background: #7FE6F8;
 	text-decoration: none;
 }
 
@@ -353,11 +383,12 @@ font-style: normal;
     width: 100%;
 }
 
-.cs-container {
-    margin: 3em auto;
-    max-width: 50em;
-    padding-left: 3em;
-    padding-right: 3em;
+.titles {
+    display: block;
+    color: #2e2f31;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    margin-top: 10rem;
 }
 
 .cs-summary {
@@ -368,102 +399,51 @@ font-style: normal;
 	    padding-right: 5%;
 }
 
-.cs-head1 {
-	font-weight: bold;
-	margin-top: .5em;
-margin-bottom: .5em;
-    font-family: 'Montserrat', sans-serif;
+.section-wide {
+    max-width: 120rem;
+    margin: auto;
+    align-items: center;
 }
 
-.cs-head {
-	font-weight: bold;
-    margin-top: 1em;
-    margin-bottom: 1.25em;
-		font-family: 'Montserrat', sans-serif;
+.section-wide {
+    padding-top: 2rem;
 }
 
-.cs-text {
-	font-size: 1em;
-	    margin-top: 0;
-	    margin-bottom: 1.2em;
-	    font-family: 'Montserrat', sans-serif;
-	    font-style: normal;
-	    font-weight: normal;
-	    line-height: 140%;
+h3 {
+    color: #000080;
+    font-family: 'nunito', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: .08rem;
 }
 
-.survey-result-img{
-	margin-bottom: 1.5em;
-	margin-right: 5em;
-	padding-left: 2em;
-	line-height: 1.5em;
-	font-weight: 400;
-	float: right;
-	width: 60%;
-}
-
-
-.cs-section-head {
-	font-size: 24px;
-	font-weight: bold;
-	    margin-top: .5em;
-	    color: #000;
-	    padding-bottom: 2em;
-	    margin-bottom: .1em;
-	    padding-top: 30px;
-	    font-family: 'Montserrat', sans-serif;
+h2, h3, h4 {
+    /* max-width: 300px; */
+    margin: 0 0 0 0;
 }
 
 h2 {
-	font-family: 'Montserrat,' sans-serif;
-	font-size: 16px;
-	font-weight: 600;
+    color: black;
+    font-family: 'Playfair Display', serif;
 }
 
-.cs-specs-head1 {
-    color: #000;
-    line-height: 1.5em;
-    margin-top: 1.75em;
-    margin-bottom: .25em;
-		font-family: 'Montserrat', sans-serif;
+.emp {
+    font-size: 2.5rem;
+}
+.red {
+    color: #E76155;
 }
 
-.cs-specs2 {
-    width: 100%;
-}
 
-.cs-specs-text {
-	padding-top: .5px;
-	    color: #000;
-	    font-size: 1em;
-	    line-height: 140%;
-	    font-family: 'Montserrat', sans-serif;
-	    margin-bottom: 1em;
-}
-
-.specs-list1 {
-    list-style: none;
-}
-
-.specs-list2 {
-    list-style: none;
-}
-
-.cs-specs-all {
-	width: 90%;
-	display: inline-block;
-	background-color: #FBD3DB;
-	padding-left: 5%;
-	padding-right: 20%;
-	padding-bottom: 1em;
-	box-sizing: border-box;
-}
-
-.cs-specs1 {
-    width: 100%;
+.design-role-title {
+    font-weight: 500;
+    color: #2e5266;
+    padding-bottom: 0;
 }
 
 .cs-button {
+  border-radius: 3rem;
+  border: 0.2rem solid #2633b4;
   padding: 10px 20px;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -472,8 +452,11 @@ h2 {
   align-items: center;
   text-align: center;
   color: #000000;
-  background-color: #7FE6F8;
 			text-decoration: none;
+}
+
+#body {
+    margin: 0 1.5rem;
 }
 
 a:hover{
@@ -505,26 +488,11 @@ width: 10%;
 padding: .25em .5em;
 }
 
-.ca-images {
-	  padding: .25em .5em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 80%;
-    margin: 0 auto;
-}
-
-.cs-text-left{
-	line-height: 140%;
-padding-right: 40%;
-padding-left: 10em;
-margin-left: 0;
-margin-bottom: 1.5em;
-vertical-align: top;
-margin-top: 0;
-width: 80%;
-font-family: 'Montserrat', sans-serif;
-width: 120%;
+.competitive-analysis {
+    display: grid;
+    grid-gap: 3rem;
+    padding: 2rem;
+    margin: auto;
 }
 
 .cs-prebullet-text {
@@ -548,18 +516,13 @@ margin-bottom: 2em;
 padding-left: 5em;
 }
 
-.cs-text-list {
-    font-size: 1em;
-    line-height: 1.5em;
-    margin-top: 0;
-    margin-bottom: .5em;
-    padding-left: .25em;
-    padding-right: 40%;
-    font-family: 'Montserrat', sans-serif;
-}
 
-.cs-category {
-    display: inline-block;
+p {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    letter-spacing: .02rem;
+    padding: 1.5rem 0 1rem 0;
 }
 
 .cs-bb-visualdesign {
@@ -592,6 +555,14 @@ max-width: 100%;
   max-width: 100%;
 }
 
+.bgcolor {
+    background-color: #D9F6F1;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
 .user-flow-img{
   max-width: 100%;
     background-image: url(../edulifeuserflow.png);
@@ -614,28 +585,14 @@ max-width: 100%;
   width: 530px;
 }
 
-.cs-persona-text{
-    float: left;
-    padding-right: 15%;
-    padding-left: 2em;
-    margin-left: 0;
-    margin-bottom: 1.5em;
-    vertical-align: top;
-    margin-top: 0;
+
+.nude2-background {
     width: 100%;
-   font-family: 'Montserrat', sans-serif;
-}
-
-p {
-    font-size: 1em;
-    line-height: 1.5em;
-}
-
-.cs-persona-pic {
-  display: flex;
-  flex-direction: column;
-  vertical-align: top;
-  width: 15%;
+    background-color: #fff9f7;;
+    margin: auto;
+    margin-top: 5rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 5px 0px rgba(222, 222, 223, 1);
 }
 
 .homepage-1{
@@ -654,7 +611,6 @@ img {
 max-width: 100%;
 height: auto;
 margin: 0 auto;
-display: block;
 }
 
 .competitive-logo {
@@ -690,9 +646,90 @@ p.footer-text {
 	font-family: 'Montserrat', sans-serif;
 }
 
+ol, ul {
+    list-style: none;
+}
+
+ul.listspace li {
+    margin-bottom: 10px;
+}
+
+hr {
+    border-top: 1px solid red;
+}
+
+.red {
+    color: #E76155;
+}
+
   p {
     font-size: 1em;
     line-height: 1.5em;
+}
+
+.section-personas {
+    /**display: grid;**/
+    /**grid-template-columns: 1fr 1fr;**/
+    max-width: 120rem;
+    margin: auto;
+    /**grid-gap: 3rem;**/
+}
+
+#persona-name {
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.persona-section {
+    padding-bottom: 5rem;
+    padding-top: 3em;
+}
+
+.grid-columns-2 {
+    padding: 2rem;
+}
+
+.bold {
+    color: black;
+    font-weight: 600;
+    padding-right: .5rem;
+}
+
+.persona-titles {
+    color: black;
+    font-family: 'nunito', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+
+#jared {
+    padding: 2rem;
+    background-color: var(--nude);
+    box-shadow: 0px 0px 5px 0px rgba(222, 222, 223, 1);
+    border-radius: 1rem;
+}
+
+#charlotte {
+    padding: 2rem;
+    background-color: var(--nude);
+    box-shadow: 0px 0px 5px 0px rgba(222, 222, 223, 1);
+    border-radius: 1rem;
+}
+
+#body ul {
+    list-style-type: disc;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+}
+
+ul, ol {
+    color: black;
+    font-family: 'nunito', sans-serif;
+    font-weight: 300;
+    max-width: 90rem;
+    letter-spacing: .06rem;
+    list-style-position: outside;
+    padding-top: .5rem;
 }
 
 .space-top1 {
@@ -790,32 +827,12 @@ anchor a {
     position: relative;
 }
 
-.overview h3 {
-    font-size: 1.5rem;
+
+.section {
+    padding-top: 8rem;
+    max-width: 80rem;
+    margin: auto;
 }
-
-.overview div {
-    width: 16.3rem;
-    margin: 0 auto;
-    margin-bottom: 1.5rem;
-	}
-
-	.overview {
-		flex-direction: row;
-    justify-content: center;
-    text-align: center;
-}
-
-.problem, .solution {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-    margin: 2rem;
-    background: #FBD3DB;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 3px;
-	}
 
 	.page-divider {
     border-bottom: 1px solid #ddd;
@@ -832,6 +849,72 @@ anchor a {
 }
 }
 
+@media screen and (min-width: 991px){
+.marginbottomsmall {
+    margin-bottom: 50px;
+}
+
+.margintopsmall {
+    margin-top: 60px;
+}
+}
+
+@media screen and (min-width: 851px){
+.competitive-analysis {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-columns-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+    margin: auto;
+}
+
+.edulife-design {
+    display: grid;
+    grid-template-rows: 1fr .5fr 1fr .5fr 1fr;
+    margin: auto;
+}
+}
+
+@media screen and (min-width: 575px){
+.storyandfeature {
+    width: 45%;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.featuresonly {
+    float: right;
+}
+}
+
+@media screen and (max-width: 895px){
+h1 {
+    font-size: 3rem;
+}
+
+h3 {
+    line-height: 1.4;
+}
+
+#persona-name {
+    font-size: 2.4rem;
+}
+
+.persona-titles, .quote, .persona-titles-bold p {
+    font-size: 1.6rem;
+}
+
+.design-role-title {
+    font-size: 2.1rem;
+}
+
+p, ul, ol, .img-caption {
+    line-height: 3rem;
+}
+}
 
 @media only screen and (max-width: 1024px) and (min-width: 767px){
 
@@ -841,7 +924,12 @@ anchor a {
 		}
   }
 
+
 @media only screen and (min-width: 375px) and (max-width: 500px){
+
+  .alignleftformobile {
+    text-align: center;
+}
 
   .navitem {
     width: 100%;
@@ -905,16 +993,79 @@ anchor a {
     height: 40px;
 }
 
-.cs-persona-text{
-	font-size: 12px;
-	margin-right: 5em;
-}
-
 .user-flows-image2{
   width: 100%;
 }
 }
 
+@media screen and (min-width: 895px){
+h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h4 {
+    font-size: 5rem;
+    line-height: 1.5rem;
+}
+
+.sub-header, .design-role-title {
+    font-size: 1.8rem;
+}
+
+h4 {
+    color: #8a2be2;
+    padding-bottom: 1.1rem;
+    letter-spacing: .7rem;
+}
+
+p, ul, ol, .img-caption {
+    line-height: 3rem;
+}
+
+p, ul, ol, .button, .contact-button {
+    font-size: 1.8rem;
+}
+
+p, ul, ol {
+    font-size: 2rem;
+}
+}
+
+@media screen and (max-width: 850px){
+.section-personas {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0rem;
+}
+
+.three-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+}
+
+@media screen and (min-width: 651px){
+.design-roles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+  max-width: 120rem;
+  grid-gap: 2.5rem;
+  text-align: center;
+}
+}
+
+@media screen and (max-width: 909px){
+.nude2-background {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+}
 
 	@media only screen and (max-width: 767px) {
 
