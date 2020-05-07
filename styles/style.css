@@ -1,3 +1,9 @@
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 #mobile-menu {padding: 0.25em;}
 
 /* End General Styling */
@@ -57,9 +63,6 @@ transform-origin: 50% 50%;
         #mobile-menu.open ul {display: block;}
         #mobile-menu li {display: block;}
 }
-
-
-*{box-sizing: border-box}
 
 body {
     overflow-x: hidden;
