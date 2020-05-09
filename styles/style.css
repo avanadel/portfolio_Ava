@@ -184,7 +184,7 @@ top: 616px;
 
 h1 {
   color: #2e2f31;
-  font-family: 'nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: .06rem;
@@ -328,6 +328,15 @@ margin: 10px 50px;
     padding: 5%;
 }
 
+.before-after-with-arrow {
+    display: grid;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    max-width: 120rem;
+    padding: 2rem;
+}
+
 .cs-container-title{
   margin: 5em auto 3em;
     padding-top: 2em;
@@ -384,7 +393,7 @@ font-style: normal;
 
 .titles {
     display: block;
-    color: #2e2f31;
+    color: #800080;
     font-family: 'Montserrat', sans-serif;
     margin: auto;
     margin-top: 10rem;
@@ -402,28 +411,31 @@ font-style: normal;
     max-width: 120rem;
     margin: auto;
     align-items: center;
-}
-
-.section-wide {
-    padding-top: 2rem;
+    padding: 2em;
 }
 
 h3 {
     color: #000080;
-    font-family: 'nunito', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: .08rem;
 }
 
+h4 {
+    color: #800080;
+    padding-bottom: 1.1rem;
+    letter-spacing: .7rem;
+}
+
 h2, h3, h4 {
-    /* max-width: 300px; */
-    margin: 0 0 0 0;
+  /*max-width: 300px;*/
+  margin: 0 0 0 0;
 }
 
 h2 {
     color: black;
-    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
 }
 
 .emp {
@@ -546,12 +558,12 @@ max-width: 100%;
   max-width: 100%;
 }
 
-.poppins-img{
-  max-width: 100%;
-}
-
-.roboto-img{
-  max-width: 100%;
+.sub-header {
+    font-weight: 400;
+    color: purple;
+    padding: 4rem 0 0 0;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .bgcolor {
@@ -699,7 +711,7 @@ hr {
 
 .persona-titles {
     color: black;
-    font-family: 'nunito', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     padding-bottom: 1rem;
 }
@@ -726,7 +738,7 @@ hr {
 
 ul, ol {
     color: black;
-    font-family: 'nunito', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     max-width: 90rem;
     letter-spacing: .06rem;
@@ -870,11 +882,35 @@ anchor a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+.before-after-with-arrow-justify {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+}
+
+.before-after-with-arrow {
+    display: grid;
+    grid-template-columns: 1fr .1fr 1fr;
+}
+
 .grid-columns-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 3rem;
     margin: auto;
+}
+
+.dashboard2 img {
+    width: 100%;
+}
+
+#arrow-right {
+    display: block;
+}
+
+#arrow-down {
+    display: none;
 }
 
 .edulife-design {
@@ -915,9 +951,18 @@ anchor a {
 }
 }
 
-@media screen and (max-width: 895px){
+@media screen and (max-width: 896px){
 h1 {
     font-size: 3rem;
+}
+
+h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+h3 {
+    font-size: 2.1rem;
 }
 
 h3 {
@@ -932,6 +977,10 @@ h3 {
     font-size: 1.6rem;
 }
 
+.sub-header {
+    font-size: 2rem;
+}
+
 .design-role-title {
     font-size: 2.1rem;
 }
@@ -940,6 +989,9 @@ p, ul, ol, .img-caption {
     line-height: 3rem;
 }
 }
+
+
+
 
 @media only screen and (max-width: 1024px) and (min-width: 767px){
 
@@ -1023,42 +1075,24 @@ p, ul, ol, .img-caption {
 }
 }
 
-@media screen and (min-width: 895px){
-h2 {
-    font-size: 4rem;
-    line-height: 5rem;
-}
-
-h1 {
-    font-size: 3.5rem;
-}
-
-h4 {
-    font-size: 5rem;
-    line-height: 1.5rem;
-}
-
-.sub-header, .design-role-title {
-    font-size: 1.8rem;
-}
-
-h4 {
-    color: #8a2be2;
-    padding-bottom: 1.1rem;
-    letter-spacing: .7rem;
-}
-
-p, ul, ol, .img-caption {
-    line-height: 3rem;
-}
-
-p, ul, ol, .button, .contact-button {
-    font-size: 1.8rem;
-}
-
-p, ul, ol {
+@media screen and (min-width:896px) {
+  .sub-header {
     font-size: 2rem;
-}
+  }
+
+  .design-role-title {
+    font-size: 2.1rem;
+  }
+
+  .persona-titles, .persona-titles-bold {
+    font-size: 2rem;
+  }
+
+
+  .quote p {
+    line-height: 3rem;
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 850px){
@@ -1074,6 +1108,40 @@ p, ul, ol {
 }
 }
 
+@media screen and (max-width:895px) {
+  .sub-header, .design-role-title {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+   font-size: 3.3rem;
+   line-height: 4.25rem;
+ }
+
+  h3 {
+     font-size: 1.88rem;
+   }
+
+   h3 {
+      line-height: 1.4;
+    }
+
+    h4 {
+   font-size: 4.3rem;
+   line-height: 1.5rem;
+   padding-bottom: .7rem;
+ }
+
+  .persona-titles, .quote, .persona-titles-bold p {
+    font-size: 1.6rem;
+  }
+
+  .colors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
 
 
 @media screen and (max-width: 909px){
