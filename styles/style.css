@@ -69,7 +69,6 @@ body {
 	  font-size: 14px;
 }
 
-
 #wrapper {
 
     max-width: 80%; /* or whatever max size */
@@ -448,27 +447,94 @@ h2 {
 
 .design-role-title {
     font-weight: 500;
-    color: #2e5266;
+    color: #000080;
     padding-bottom: 0;
 }
 
-.cs-button {
-  border-radius: 3rem;
-  border: 0.2rem solid #2633b4;
-  padding: 10px 20px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-  line-height: 27px;
-	display: inline-block;
-  align-items: center;
-  text-align: center;
-  color: #000000;
-			text-decoration: none;
-}
+
 
 #body {
     margin: 0 1.5rem;
 }
+
+/* Buttons
+___________________________________ */
+
+.about-button-position {
+    max-width: 33em;
+    margin: -.5em auto 0;
+    padding-top: 28px;
+    padding-bottom: 15px;
+		text-decoration: none;
+}
+
+.about-button-position {
+    max-width: 33em;
+    margin: -.5em auto 0;
+    padding-top: 28px;
+    padding-bottom: 15px;
+		text-decoration: none;
+}
+
+.about-button {
+    border: none;
+    padding: 11px 14px;
+    font-size: .88em;
+    background-color: #7FE6F8;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+    margin-top: -2em;
+    font-family: 'Montserrat', sans-serif;
+		text-decoration: none;
+  }
+
+.about-button {
+    border: none;
+    padding: 11px 14px;
+    font-size: .88em;
+    background-color: #7FE6F8;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+    margin-top: -2em;
+    font-family: 'Montserrat', sans-serif;
+		text-decoration: none;
+  }
+
+  .center-btns {
+      text-align: center;
+      padding-bottom: 6rem;
+      padding-top: 2rem;
+  }
+
+  a {
+      text-decoration: none;
+  }
+
+  .button {
+      margin: auto;
+  }
+
+  .button {
+    display: block;
+    align-items: center;
+    cursor: pointer;
+    max-width: 32.5rem;
+    color: #FFF;
+    text-align: center;
+    font-weight: 500;
+    white-space: nowrap;
+    background-color: transparent;
+    color: purple;
+    margin-top:3rem;
+    border: 0.2rem solid purple;
+    border-radius: 3rem;
+    transition: .7s ease-in-out;
+    font-family: 'nunito', sans-serif;
+    letter-spacing: .08rem;
+
+  }
 
 a:hover{
   color: #843386;
@@ -476,17 +542,11 @@ font-weight: bolder;
 }
 
 .button:hover {
-	color: #2633B4;
+  color: #FFF;
+  background-color: purple;
+  box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
 }
 
-.CTA:hover{
-	color: #2633B4;
-}
-
-.cs-button:hover {
-  color: #2633B4;
-  font-weight: 900;
-}
 
 .competitors {
     display: inline-block;
@@ -596,13 +656,13 @@ max-width: 100%;
   width: 530px;
 }
 
-.marginbottomsmall {
+.marginbottomsmall{
     margin-bottom: 20px;
 }
 
-.nude2-background {
+.nude2-background{
     width: 100%;
-    background-color: #fff9f7;;
+    background-color: #D9F6F1;
     margin: auto;
     margin-top: 5rem;
     border-radius: 1rem;
@@ -620,6 +680,7 @@ max-width: 100%;
 .share-work-draft{
 max-width: 100%;
 }
+
 /* make all images responsive */
 img {
 max-width: 100%;
@@ -863,6 +924,9 @@ anchor a {
 }
 }
 
+/*MEDIA screens
+_____________________________*/
+
 @media screen and (min-width: 991px){
 .marginbottomsmall {
     margin-bottom: 50px;
@@ -969,6 +1033,31 @@ h3 {
     line-height: 1.4;
 }
 
+.button, .contact-button {
+  font-size: 1.8rem;
+}
+
+.button, .contact-button {
+    padding: 1.5rem 0;
+  }
+
+  .sub-header {
+    font-size: 2rem;
+  }
+
+  .design-role-title {
+    font-size: 2.1rem;
+  }
+
+  .persona-titles, .persona-titles-bold {
+    font-size: 2rem;
+  }
+
+  .quote p {
+    line-height: 3rem;
+    font-size: 2rem;
+  }
+
 #persona-name {
     font-size: 2.4rem;
 }
@@ -991,10 +1080,7 @@ p, ul, ol, .img-caption {
 }
 
 
-
-
 @media only screen and (max-width: 1024px) and (min-width: 767px){
-
     ul.footer-info {
       margin-right: 3em;
 		  font-size: 11px;
@@ -1003,7 +1089,6 @@ p, ul, ol, .img-caption {
 
 
 @media only screen and (min-width: 375px) and (max-width: 500px){
-
   .alignleftformobile {
     text-align: center;
 }
@@ -1075,25 +1160,7 @@ p, ul, ol, .img-caption {
 }
 }
 
-@media screen and (min-width:896px) {
-  .sub-header {
-    font-size: 2rem;
-  }
 
-  .design-role-title {
-    font-size: 2.1rem;
-  }
-
-  .persona-titles, .persona-titles-bold {
-    font-size: 2rem;
-  }
-
-
-  .quote p {
-    line-height: 3rem;
-    font-size: 2rem;
-  }
-}
 
 @media screen and (max-width: 850px){
 .section-personas {
@@ -1113,10 +1180,22 @@ p, ul, ol, .img-caption {
     font-size: 1.8rem;
   }
 
+  p, ul, ol, .button, .contact-button {
+     font-size: 1.8rem;
+   }
+
+   .button, .contact-button {
+        font-size: 1.7rem;
+  }
+
+  .button, .contact-button {
+    padding: 1.5rem 0;
+  }
+
   h2 {
-   font-size: 3.3rem;
-   line-height: 4.25rem;
- }
+    font-size: 3.3rem;
+    line-height: 4.25rem;
+  }
 
   h3 {
      font-size: 1.88rem;
@@ -1132,6 +1211,10 @@ p, ul, ol, .img-caption {
    padding-bottom: .7rem;
  }
 
+ p, ul, ol, .img-caption {
+   line-height: 2.4rem;
+ }
+
   .persona-titles, .quote, .persona-titles-bold p {
     font-size: 1.6rem;
   }
@@ -1142,6 +1225,7 @@ p, ul, ol, .img-caption {
     grid-template-rows: 1fr 1fr;
   }
 }
+
 
 
 @media screen and (max-width: 909px){
@@ -1215,4 +1299,11 @@ p, ul, ol, .img-caption {
 		  .project1-image{
 			max-width: 100%;
 		}
+  }
+
+  @media screen and (max-width:425px) {
+    .button {
+      width: 100%;
+    }
+  }
   }
