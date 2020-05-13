@@ -79,9 +79,6 @@ body {
 
 }
 
-@-ms-viewport{
-  {width: device-Width;}
-}
 
 .container{
 	max-width: 100%;
@@ -922,7 +919,6 @@ anchor a {
     margin: 0 auto;
     display: table;
 }
-}
 
 /*MEDIA screens
 _____________________________*/
@@ -1162,7 +1158,7 @@ p, ul, ol, .img-caption {
 
 
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 850px) {
 .section-personas {
     display: grid;
     grid-template-columns: 1fr;
@@ -1175,7 +1171,7 @@ p, ul, ol, .img-caption {
 }
 }
 
-@media screen and (max-width:895px) {
+@media screen and (max-width:895px){
   .sub-header, .design-role-title {
     font-size: 1.8rem;
   }
@@ -1235,7 +1231,7 @@ p, ul, ol, .img-caption {
 }
 }
 
-	@media only screen and (max-width: 767px) {
+	@media only screen and (max-width: 767px){
 
     #mobile-menu-toggler {display: block;}
      }
@@ -1299,11 +1295,9 @@ p, ul, ol, .img-caption {
 		  .project1-image{
 			max-width: 100%;
 		}
-  }
 
   @media screen and (max-width:425px) {
     .button {
       width: 100%;
-    }
   }
-  }
+}
