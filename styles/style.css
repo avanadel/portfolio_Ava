@@ -71,11 +71,11 @@ body {
 
 #wrapper {
 
-    max-width: 80%; /* or whatever max size */
+    max-width: 100%; /* or whatever max size */
 
     margin: 0 auto; /* center content on large screens */
 
-    padding: 20px; /* content shouldn't touch device edges */
+    padding: 10px; /* content shouldn't touch device edges */
 
 }
 
@@ -179,6 +179,7 @@ top: 616px;
 }
 
 h1 {
+  font-size: 3rem;
   color: #2e2f31;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
@@ -333,12 +334,22 @@ margin: 10px 50px;
     padding: 2rem;
 }
 
-.cs-container-title{
-  margin: 5em auto 3em;
-    padding-top: 2em;
-    max-width: 100%;
-    padding-left: 3em;
-    padding-right: 3em
+.top-section {
+    padding: 7rem 0 7rem 0;
+    display: block;
+    background-color: #001c80b8;
+    width: 100%;
+    margin: auto;
+}
+
+.four.columns.subsection.centered-persona {
+    width: 31%;
+}
+
+.column, .columns {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
 }
 
 .cs-top-image{
@@ -410,8 +421,43 @@ font-style: normal;
     padding: 2em;
 }
 
+.words {
+    display: block;
+    text-align: center;
+    max-width: 90rem;
+    margin: 0 2rem 0 2rem;
+}
+
+.case-study-screens {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    grid-gap: .5rem;
+    max-width: 120rem;
+}
+
+project-name {
+    color: black;
+    font-family: 'Playfair Display', serif;
+    line-height: 1rem;
+}
+
+.hero {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-gap: 2rem;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 10rem; */
+    justify-content: center;
+}
+
 h3 {
     color: #000080;
+    font-size: 1.88rem;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: 300;
@@ -430,7 +476,9 @@ h2, h3, h4 {
 }
 
 h2 {
+  font-size: 3.3rem;
     color: black;
+    line-height: 4.25rem;
     font-family: 'PT Serif', serif;
 }
 
@@ -586,6 +634,8 @@ padding-left: 5em;
 
 
 p {
+  line-height: 3rem;
+  font-size: 1.5rem;
     color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -734,17 +784,28 @@ hr {
     color: #E76155;
 }
 
-  p {
-    font-size: 1em;
-    line-height: 1.5em;
-}
 
 .section-personas {
-    /**display: grid;**/
-    /**grid-template-columns: 1fr 1fr;**/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     max-width: 120rem;
     margin: auto;
-    /**grid-gap: 3rem;**/
+    grid-gap: 3rem;
+}
+
+.subsection {
+  margin-top: 10%
+}
+
+.column, .columns {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.centered-persona {
+    margin: 10% 1%;
+    text-align: center;
 }
 
 #persona-name {
@@ -775,17 +836,19 @@ hr {
 }
 
 #jared {
-    padding: 2rem;
-    background-color: var(--nude);
-    box-shadow: 0px 0px 5px 0px rgba(222, 222, 223, 1);
-    border-radius: 1rem;
+  position: relative;
+  height: 200px;
+  border-radius: 50%;
 }
 
 #charlotte {
-    padding: 2rem;
-    background-color: var(--nude);
-    box-shadow: 0px 0px 5px 0px rgba(222, 222, 223, 1);
-    border-radius: 1rem;
+    position: relative;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.subcontainer {
+    width: 100%;
 }
 
 #body ul {
@@ -795,13 +858,41 @@ hr {
 }
 
 ul, ol {
-    color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     max-width: 90rem;
     letter-spacing: .06rem;
     list-style-position: outside;
     padding-top: .5rem;
+}
+
+ol {
+    list-style: decimal inside;
+}
+
+.persona li {
+    margin: 10px 0px 0px 15px;
+}
+
+.num li {
+    list-style: decimal;
+}
+
+.list li {
+    text-decoration: none;
+    list-style: square;
+    display: list-item;
+    margin: 2px 2px 2px 40px;
+    line-height: 1.5em;
+    padding-left: 2px;
+    padding-right: 0;
+}
+
+li {
+    margin-bottom: 1rem;
+    display: inline;
+    list-style-type: none;
+    padding-right: 30px;
 }
 
 .space-top1 {
@@ -901,8 +992,9 @@ anchor a {
 
 
 .section {
-    padding-top: 8rem;
-    max-width: 80rem;
+  padding: 7rem 0 7rem 0;
+    display: block;
+    width: 100%;
     margin: auto;
 }
 
@@ -970,7 +1062,7 @@ _____________________________*/
 }
 
 #arrow-down {
-    display: none;
+    padding: 1.8rem;
 }
 
 .edulife-design {
@@ -1011,6 +1103,21 @@ _____________________________*/
 }
 }
 
+@media (min-width: 550px){
+.four.columns {
+    width: 30.6666666667%;
+}
+.column, .columns {
+    margin-left: 4%;
+}
+.six.columns {
+    width: 48%;
+}
+.column:first-child, .columns:first-child {
+    margin-left: 0;
+}
+}
+
 @media screen and (max-width: 896px){
 h1 {
     font-size: 3rem;
@@ -1027,6 +1134,10 @@ h3 {
 
 h3 {
     line-height: 1.4;
+}
+
+project-name {
+    font-size: 7rem;
 }
 
 .button, .contact-button {
@@ -1068,6 +1179,10 @@ h3 {
 
 .design-role-title {
     font-size: 2.1rem;
+}
+
+p, ul, ol {
+    font-size: 2rem;
 }
 
 p, ul, ol, .img-caption {
@@ -1177,7 +1292,7 @@ p, ul, ol, .img-caption {
   }
 
   p, ul, ol, .button, .contact-button {
-     font-size: 1.8rem;
+     font-size: 1.4rem;
    }
 
    .button, .contact-button {
@@ -1198,7 +1313,7 @@ p, ul, ol, .img-caption {
    }
 
    h3 {
-      line-height: 1.4;
+      line-height: 1.4rem;
     }
 
     h4 {
@@ -1214,6 +1329,10 @@ p, ul, ol, .img-caption {
   .persona-titles, .quote, .persona-titles-bold p {
     font-size: 1.6rem;
   }
+
+  #arrow-down {
+    display: block;
+}
 
   .colors {
     display: grid;
