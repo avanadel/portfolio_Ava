@@ -207,6 +207,13 @@ h1 {
     width: 100%;
 }
 
+
+.column, .columns {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
 .edulife-design {
     display: grid;
     grid-template-rows: 1fr .5fr 1fr .5fr 1fr;
@@ -238,6 +245,10 @@ h1 {
     align-items: center;
     margin: auto;
     padding: 3rem;
+}
+
+.subsection {
+    margin-top: 10%;
 }
 
 p.project-description-right{
@@ -342,15 +353,6 @@ margin: 10px 50px;
     margin: auto;
 }
 
-.four.columns.subsection.centered-persona {
-    width: 31%;
-}
-
-.column, .columns {
-    width: 100%;
-    float: left;
-    box-sizing: border-box;
-}
 
 .cs-top-image{
 max-width: 100%;
@@ -793,14 +795,28 @@ hr {
     grid-gap: 3rem;
 }
 
-.subsection {
-  margin-top: 10%
+#jared{
+    padding: 2rem;
+    text-align: center;
+    background-color: #D9F6F1;
+    box-shadow: 0px 0px 5px 0px rgba(222, 222, 223, 1);
+    border-radius: 1rem;
 }
 
-.column, .columns {
-    width: 100%;
-    float: left;
-    box-sizing: border-box;
+#persona-name .persona-name {
+    font-weight: 600;
+    padding-top: 2rem;
+    color: navy;
+    font-size: 2rem;
+    font-family: 'nunito', sans-serif;
+}
+
+#charlotte{
+      text-align: center;
+    padding: 2rem;
+    background-color: #D9F6F1;
+    box-shadow: 0px 0px 5px 0px rgba(222, 222, 223, 1);
+    border-radius: 1rem;
 }
 
 .centered-persona {
@@ -833,18 +849,6 @@ hr {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     padding-bottom: 1rem;
-}
-
-#jared {
-  position: relative;
-  height: 200px;
-  border-radius: 50%;
-}
-
-#charlotte {
-    position: relative;
-    height: 200px;
-    border-radius: 50%;
 }
 
 .subcontainer {
@@ -1103,21 +1107,6 @@ _____________________________*/
 }
 }
 
-@media (min-width: 550px){
-.four.columns {
-    width: 30.6666666667%;
-}
-.column, .columns {
-    margin-left: 4%;
-}
-.six.columns {
-    width: 48%;
-}
-.column:first-child, .columns:first-child {
-    margin-left: 0;
-}
-}
-
 @media screen and (max-width: 896px){
 h1 {
     font-size: 3rem;
@@ -1134,6 +1123,10 @@ h3 {
 
 h3 {
     line-height: 1.4;
+}
+
+#persona-name {
+    font-size: 2.8rem;
 }
 
 project-name {
@@ -1164,10 +1157,6 @@ project-name {
     line-height: 3rem;
     font-size: 2rem;
   }
-
-#persona-name {
-    font-size: 2.4rem;
-}
 
 .persona-titles, .quote, .persona-titles-bold p {
     font-size: 1.6rem;
