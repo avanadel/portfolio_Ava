@@ -348,7 +348,7 @@ margin: 10px 50px;
 .top-section {
     padding: 7rem 0 7rem 0;
     display: block;
-    background-color: #001c80b8;
+    background-color: #d9f6f1;
     width: 100%;
     margin: auto;
 }
@@ -607,6 +607,7 @@ padding: .25em .5em;
 }
 
 .competitive-analysis {
+    grid-template-columns: 1fr 1fr 1fr;
     display: grid;
     grid-gap: 3rem;
     padding: 2rem;
@@ -811,13 +812,7 @@ hr {
     font-family: 'nunito', sans-serif;
 }
 
-#charlotte{
-      text-align: center;
-    padding: 2rem;
-    background-color: #D9F6F1;
-    box-shadow: 0px 0px 5px 0px rgba(222, 222, 223, 1);
-    border-radius: 1rem;
-}
+
 
 .centered-persona {
     margin: 10% 1%;
@@ -1325,8 +1320,6 @@ p, ul, ol, .img-caption {
 
   .colors {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
   }
 }
 
