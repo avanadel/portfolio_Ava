@@ -139,7 +139,7 @@ header {
   position: absolute;
   height: 3px;
   width: 100%;
-  background: #F69709;
+  background: #f6095e;
   border-radius: 9px;
   opacity: 1;
   left: 0;
@@ -284,7 +284,7 @@ header {
 }
 
 .table p {
-  color: #40AEFE;
+  color: #B82ADF;
   font-family: 'Poppins', sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
@@ -385,7 +385,7 @@ h1 {
 }
 
 h2 {
-  color: #40AEFE;
+  color: #B82ADF;
   font-family: 'Poppins', sans-serif;
   font-size: 2rem;
   font-weight: 700;
@@ -395,7 +395,7 @@ h2 {
 }
 
 h3 {
-  color: #40AEFE;
+  color: #B82ADF;
   font-family: 'Poppins', sans-serif;
   font-size: 1.6rem;
   font-weight: 400;

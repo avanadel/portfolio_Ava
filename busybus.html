@@ -1,253 +1,248 @@
 <!DOCTYPE html>
-<html class="gr_avanadel_design" lang="en" style="overflow-x: hidden;">
+<html lang="en" dir="ltr">
   <head>
-  <title>BusyBus Case Study</title>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
- <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="styles/reset.css">
-  <link rel="stylesheet" type="text/css" href="styles/style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-  <script src="js/jQuery.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BusyBus | Case Study</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133288225-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-133288225-1');
+    </script>
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo-simple.png"/>
+
+    <!-- MDL -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.orange-light_blue.min.css" />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- custom styles -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/wet2abt.css">
+    <link rel="stylesheet" href="styles/flickity.css">
+    <link rel="stylesheet" href="styles/main.css">
   </head>
+  <body>
+    <header>
+      <div id="logo">
+        <a href="http://avanadel.design"><img src="images/Ava-Logo.png" alt="Ava Nadel"></a>
+      </div>
+      <div id="nav-icon" onclick="openMenu(this)">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div id="menu" class="closed">
+        <div class="overlay-content">
+          <a href="http://avanadel.design/index.html">Home</a>
+          <a href="http://avanadel.design/index.html#Work">Work</a>
+          <a href="http://avanadel.design/about.html">About</a>
+          <a href="http://avanadel.design/mailto:avagnadel@gmail.com">Contact</a>
+          <a href="documents/AvaNadel_Resume.png" target="_blank">Resume</a>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <!-- project header -->
+      <section id="description" class="prj-part" style="padding-top: 2rem;">
+        <h2>BusyBus</h2>
+        <h4>An iOS platform to ensure bus riders a comfortable bus commute at and improve the current metro system.</h4>
+        <img src="images/busybussolution.png" alt="BusyBus screenshots" class="only-pics">
+      </section>
+      <!-- roles/deliverables/tools table -->
+      <section id="roles" class="prj-part">
+        <div class="table">
+          <div class="column-one">
+            <div style="order:1" class="table-cell table-header"><p>Roles</p></div>
+            <div style="order:2" class="table-cell">UX Research</div>
+            <div style="order:3" class="table-cell">UI/UX Design</div>
+            <div style="order:4" class="table-cell table-foot">Frontend</div>
+          </div>
 
+          <div class="column-two">
+            <div style="order:1" class="table-cell table-header"><p>Deliverables</p></div>
+            <div style="order:2" class="table-cell">Wireframes</div>
+            <div style="order:2" class="table-cell">Frontend Development</div>
+            <div style="order:2" class="table-cell">User Research</div>
+            <div style="order:2" class="table-cell">Competitive Analysis</div>
+            <div style="order:3" class="table-cell">Lo/Hi-fi mockups</div>
+            <div style="order:4" class="table-cell"></div>
+          </div>
 
-  <section class="hero">
-              <ul id="flex-container" class="flex-container">
-                <li class="my-logo">
-                   <img class="logo" src="images/Ava-Logo.png" alt="logo">
-                 </li>
+          <div class="column-three">
+            <div style="order:1" class="table-cell table-header"><p>Tools</p></div>
+            <div style="order:2" class="table-cell">Pen and paper</div>
+            <div style="order:3" class="table-cell">Figma</div>
+              <div style="order:3" class="table-cell">Marvel</div>
+            <div style="order:3" class="table-cell">Atom</div>
+            <div style="order:3" class="table-cell">Draw.io</div>
+            <div style="order:3" class="table-cell">Google Forms</div>
+            <div style="order:4" class="table-cell"></div>
+          </div>
+        </div>
+      </section>
+      <!-- problem -->
+      <section id="problem" class="prj-part">
+        <h2>The Problem</h2>
+        <h4>Transit officials have identified a problem they would like to solve. Due to expansion, numerous bus routes have been recently added and many of those routes stop at the same bus stop. Riders want to know what the next arriving bus is and how much time they have to get to the bus stop. Simply rushing to the stop when you see a bus coming no longer works because it might not be the bus the rider is expecting.
+                                              Riders are currently complaining the most about the bus stop at Washington and State, which has seven bus lines serving the stop.</h4>
+      </section>
+      <!-- solution -->
+      <section id="solution" class="prj-part">
+        <h2>The Solution</h2>
+        <h4>BusyBus is a mobile iOS application (a single screen in this case) to help the bus riders to know what the next arriving bus is and how much time they have to get to their respective bus stop. The app shows live estimates for any stop/station while showing the fastest route to get from point A to point B.</h4>
+      </section>
+      <!-- process -->
+      <section id="process" class="prj-part" style="padding-top: 2rem;">
+        <h2>The Process</h2>
+      </section>
+      <!-- research and discovery -->
+      <section id="r-and-d" class="prj-part" style="padding-top: 0;">
+        <h3>Research and Discovery</h3>
+        <h4>I needed to uncover how often people utilize public transportation and their most frequented methods (bus, metro, ridesharing apps), and main annoyances when accessing transit apps.</h4>
+        <!-- <div class="graph">
+          <canvas id="surveyResults"></canvas>
+        </div> -->
+        <h4>Key Takeaways:<br>
+          <ul>
+            <li class="takeaways">Respondents were most frustrated with <b>unreliability</b>, <b>overcrowding</b>, <b>length arrival times</b>, and <b>inaccurate bus schedules</b></li>
+            <li class="takeaways"><b>70%</b> used a mobile app to plan their trips</li>
+            <li class="takeaways">Travelers used mobile apps for <b>real-time status updates</b>, and <b>estimating departure/arrival times.</b></li>
+          </ul>
+        </h4>
+      </section>
+      <!-- competitive analysis -->
+      <section id="comp-anal" class="prj-part">
+        <h3>Competitive Analysis</h3>
+        <h4>As a result of an analysis of two competitors within the market (Google Maps & Moovit), I came up with interesting ideas on how a new competitor, in this case, BusyBus, could enter the saturated market.</h4>
+        <p>Google Maps was the leading app that my user participants used for planning their trips. They offered public transit data that offered directions both in and out of metropolitan areas, giving users the ability to download maps for offline use. However, they lacked in providing real time public transit information and walking navigation directions can sometimes be inaccurate.
+</p>
+<p>Moovit, a community-driven app hence, gives its users access to real time transit data but is limited for those who need driving directions or public transit information in suburbs where transit options are limited. The app doesn’t allow their users to manually update their route while in progress.</p>
 
-                 <li class="work"><a class="work-font" href="/">Work</a></li>
-                               <li class="bio"><a class="about-font" href="./about.html">Bio</a></li>
-                             </ul>
-                           </section>
-                           <section class="busysolution">
-                                    <div class="project-div">
-                                      <h2><span class="yellow-p">BusyBus</span> UX Design Excercise</h2>
-                                      <p>A platform to help the bus riders a comfortable bus commute</p>
-                                    </div>
-                                    <div class="buttons">
-                                      <div class="visualdesign-button">
-                                        <a class="visualdesign" href="https://www.figma.com/proto/JJLWsrf6742YLXKjnEX0UTya/Digital-Prototype-BusyBus?node-id=1%3A2&viewport=376%2C384%2C0.9198369383811951&scaling=min-zoom" target="_blank">Visual Design</a>
-                                      </div>
-                                      <div class="frontend-button">
-                                        <a class="frontend" href="https://avanadel.github.io/frontend_challenge/" target="_blank">Frontend</a>
-                                      </div>
-                                    </div>
-                                  <img class="busybussolution" src="images/busybussolution.png" alt="busybussolution">
-                                </section>
-                                <section id="overview" class="intro">
-                                          <div class="overview">
-                                            <h4>OVERVIEW:</h4>
-                                            <p>The concept of public transit trackers isn’t new but it provided me a wealth of opportunities to work with imperfect data that is incredibly important to the users of a given app or service. Few things will make people run faster than discovering their bus is a mere 2 minutes away from the bus stop.
-                                              In this exercise, I was tasked with helping to create a mobile app called BusyBus, an application operated by the local city transit system that serves thousands of commuters in a large city.</p>
-                                          </div>
-                                          <div class="general">
-                                            <div class="role">
-                                              <p><span class="yellow-p">Roles</span> UX Research, Visual Design, & Front-end Web Development</p><br>
-                                              <p><span class="yellow-p">Deliverables</span> User surveys, user personas, competitive analysis, user stories & flows, paper prototype, lo-fi/hi-f wireframes, user testing analysis</p><br>
-                                              <p><span class="yellow-p">Duration</span> 3 weeks</p><br>
-                                              <p><span class="yellow-p">Tools</span> Figma, Atom, Draw.io, Google Forms,</p><br>
-                                            </div>
-                                </div>
-                                <div class="problem">
-                                            <h4>PROBLEM:</h4>
-                                            <p>Transit officials have identified a problem they would like to solve. Due to expansion, numerous bus routes have been recently added and many of those routes stop at the same bus stop. Riders want to know what the next arriving bus is and how much time they have to get to the bus stop. Simply rushing to the stop when you see a bus coming no longer works because it might not be the bus the rider is expecting.
-                                              Riders are currently complaining the most about the bus stop at Washington and State, which has seven bus lines serving the stop.</p>
-                                          </div>
-                                          <div class="solution">
-                                            <h4>SOLUTION:</h4>
-                                            <p>BusyBus is a mobile iOS application (a single screen in this case) to help the bus riders to know what the next arriving bus is and how much time they have to get to their respective bus stop.</p>
-                                          </div>
-                                      </section>
-                                      <section id="discovery" class="research-understanding">
-        <div class="description">
-          <h1><span class="h1-title">01</span>Discovery & Strategy Phase</h1>
-          <p class="research-p">Survey results confirmed users would like using an app to track the arrival time of their bus. 85.7% of the bus riders found the public transit mobile app beneficial for their daily commute. 85.7% of the participants use the buses for reduced traffic congestion and 71.4% of the participants use the buses for saving money.</p>
-        </div>
-        <section class="survey">
-            <img class="s-image" src="images/survey.png" alt="survey logo">
-            <h6 class="survey-p1">User Survey Findings</h6>
-            <h6 class="survey-p2">17-<span class="h6-main-p">Questions</span></h6>
-            <h6 class="survey-p3">22-<span class="h6-main-p">Participants</span></h6>
-            <div class="text-center">
-          <p class="see-more">See more <span class="link"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfMqOH-t_OlUXnYoc0oOr7RA5dv1c3cy3agFVQ8heI82T8LFw/viewform?usp=sf_link" target="_blank" target="_blank">Questions</a></span> and <span class="link"><a href="https://docs.google.com/forms/d/1q_GKW735_eT53q7RxZxV2HDhzizQte_ullrifGhALVY/edit#responses">Survey Analysis</a></span>?</p>
-        </div>
-        <div class="survey-conclusion">
-          <div class="survey-result">
-            <img class="s-conclusion-img" src="images/hand2.png" alt="hand2">
-            <h6 class="survey-h6">Survey results</h6>
-          </div>
-          <div class="s-conclusion-p">
-            <p><span class="red-bold-p">I.</span> 67%
-would be more inclined to take the bus if they had real-time information for it in a mobile app</p><br><br>
-            <p><span class="red-bold-p">II.</span>94%
-want to see where their bus currently is on the map (Uber/Lyft style).</p><br><br>
-          </div>
-        </div>
-
-          <div class="comp-des"><br>
-            <div class="comp-p">
-              <p><span class="bold">Competivie Analysis</span><br><br>As a result of an analysis of two competitors within the market (Google Maps & Moovit), I came up with interesting ideas on how a new competitor, in this case, BusyBus, could enter the market.</p>
-            </div>
-          <div class="comp-group">
-            <img class="com11" src="images/googlemap.png" alt="googlemap">
-            <img class="com33" src="images/moovit.png" alt="moovit">
-          </div>
-          <div class="observe-more">
-            <p>To observe the comprehensive findings on SWOT analysis click <span class="link"><a href="https://docs.google.com/document/d/1MEiebrisOiXUYZaWkVYKGnVlxX9uKuJ5loCN9UQStsA/edit?usp=sharing" target="_blank">here</a></span>.</p>
-          </div>
-          <div class="com-conclusion">
-              <div class="C-1">
-                <div class="comp-img">
-                  <img class="com-conclusion-img" src="images/solve.png" alt="solve">
-                  <h6 class="market-h6">Market entry strategy</h6>
-                </div>
-                <p class="p1"><span class="bold"> “How a new competitor enter the marketplace?”</span>.</p><br><br><br>
-                <p class="p2"><span class="red-bold-p">I.</span><span class="bold"> Fees:</span><br>Google Maps provides real time data to users for free, marking itself as a fierce competitor for new navigation apps.</p><br><br>
-                <p class="p3" ><span class="red-bold-p">II.</span><span class="bold"> Live Alert:</span> <br>BusyBus should provide users with a variety of get-on/off alerts, arrival time update alert, etc. The users need to be provided with enable/disable features for the alerts in case they do not like receiving in app notficiations.</p><br><br>
-              </div>
-              <div class="C-2">
-                <p class="p6"><span class="red-bold-p">IV.</span><span class="bold"> A user-friendly app:</span><br>I recommend having a simple and user-friendly application. The users should have the ability to select the required features while installing the app.</p><br><br>
-                <p class="p7"><span class="red-bold-p">V.</span><span class="bold"> Route type:</span> <br>The users need to be aware of the available route options and make a choice  when on the go, providing the users with more route sorting based on the quickest route vs. the cheapest available route or live-alert.</p><br><br>
-              </div>
-          </div>
-        </div>
+<p>For BusyBus to compete in the saturated market, the app must include features and strengths of major compeitors witihn the industury that conjure a user centric approach by incorporating <b>real time updates</b> and <b>alerts</b>
       </section>
-        <section id="information-architecture" class="user-story-des">
-        <div class="description">
-          <h1><span class="h1-title">02 </span>Information Architecture</h1>
-        </div>
-        <div class="user-story">
-          <div class="inner">
-            <img class="user-story-image" src="images/user-story.png" alt="User-story">
-            <h6 class="user-story-h2">User Stories</h6>
-          </div>
-          <p class="user-story-p">A list of high priority tasks has been created for the minimum viable product (MVP) design. The importance of each task is assigned by considering the participants responses percentage in the user survey.</p><br> <br>
-        <div class="finding">
-          <div class= "inner-finding">
-            <h2 class= "finding-h2">As a user, I want to receive:</h2> <br>
-            <p><span class="red-bold-p">1.</span> Real-time information on bus routes</p> <br>
-            <p><span class="red-bold-p">2.</span> Bus operation hour</p> <br>
-            <p><span class="red-bold-p">3.</span> The available bus routes</p> <br>
-            <p class="red-bold-p">.</p> <br>
-            <p class="red-bold-p">.</p> <br>
-            <p class="red-bold-p">.</p> <br>
-            <div class="single-button-div">
-              <a class="user-stories-complete" href="https://docs.google.com/spreadsheets/d/1TML0yt4XyjMq0nX-1OdQ1doI8XipqZKgSTw4GeEKZ0E/edit?usp=sharing" target="_blank">User Stories</a>
-            </div>
-          </div>
-        </div>
+      <div class="comp-anal-logos">
+        <img src="images/Moovit.png" alt="Moovit" class="only-pics" style="height: 7rem;">
+        <img src="images/googlemap.png" alt="Dropbox" class="only-pics" style="height: 8rem;">
+      </div>
+      <!-- user stories -->
+      <section id="user-stories" class="prj-part">
+        <h3>User Stories</h3>
+        <h4>User stories help clarify the scope of the app and what the most important functions of the app are. These were from three different perspectives: <b>a new user</b>, a <b>returning user</b>, and <b>all users</b>, and ranked in importance of <b>high</b>, <b>medium</b>, or <b>low</b>.</h4>
       </section>
-
-      <section class="mobilemobile">
-        <div class="mobile">
-          <img class="mobile-icon" src="images/phone.png" alt="mobile">
-          <h6 class="mobile-h2">Paper Prototype</h6><br>
+      <div class="scrolling-wrapper">
+        <div class="user-stories-table">
+          <table>
+            <tr>
+              <th>Role</th>
+              <th>Task</th>
+              <th>Importance</th>
+            </tr>
+            <tr>
+              <td>New user</td>
+              <td>Create an account</td>
+              <td>High</td>
+            </tr>
+            <tr>
+              <td>All users</td>
+              <td>Access bus/train schedules</td>
+              <td>High</td>
+            </tr>
+            <tr>
+              <td>All users</td>
+              <td>Access bus/train map</td>
+              <td>High</td>
+            </tr>
+            <tr>
+              <td>All users</td>
+              <td>See which buses are coming to a stop near me</td>
+              <td>High</td>
+            </tr>
+            <tr>
+              <td>All users</td>
+              <td>See each bus's ETA at the stop near me</td>
+              <td>High</td>
+            </tr>
+          </table>
         </div>
-        <p>The prototype is designed in a way to cover five high priority tasks of the users specified in user stories. The user would like to be informed on what is the next arriving bus is and how much time they have to get to the bus stop.</p><br>
+        <p class="caption">High importance user stories</p>
+      </div>
+      <!-- wireframes -->
+      <section id="wireframes" class="prj-part">
+        <h3>Wireframes</h3>
+        <h4>I focused on one particular scenario where a user is trying to find the closest stop to their current location and all the routes that service that stop.  These hand-drawn wireframes show the workflow for that process.</h4>
       </section>
-      <img class="paper" src="images/paper-p.png" alt="paper-p">
-      <section class="usability">
-        <div class="user-story">
-          <div class="inner">
-            <img class="user-story-image" src="images/coffee.png" alt="User-story">
-            <h6 class="user-story-h2">Usability Test</h6>
-          </div>
-          <p class="user-story-p">The created three-screen paper prototype of the proposed application was tested with three potential users. Based on a <span class="link"><a href="https://docs.google.com/document/d/1isApBH5JcSM1xqi-N0DJr4mzuOk9KX5NEWWGHehNuLY/edit?usp=sharing" target="_blank">usability test script</a></span>, the paper prototype has been tested and modified based on the findings and feedbacks from the users.</p><br><br>
+      <div class="scrolling-wrapper" data-flickity=''>
+        <div class="card">
+          <img src="images/busybus-sketches-1.png" alt="Preliminary workflow sketches">
+          <p class="caption">Preliminary workflow sketches</p>
         </div>
-        <div class="finding">
-          <div class= "inner-finding2">
-            <h2 class= "finding-h2">Usability test finding for the initial paper prototype:</h2> <br>
-            <p><span class="red-bold-p">1.</span> The overwhelming information for each suggested route</p> <br>
-            <p><span class="red-bold-p">2.</span> Confused user about the suggested route with the walking person as the walking route</p> <br>
-            <p><span class="red-bold-p">3.</span> Confused user about the earlier-later options at the last screen</p> <br>
-            <p class="red-bold-p">.</p> <br>
-            <p class="red-bold-p">.</p> <br>
-            <p class="red-bold-p">.</p> <br>
-            <div class= "single-button-div">
-              <a class= "finding-b" href="https://docs.google.com/document/d/1pLcvAmvD3UvYux52jRWWL8EWpvKo5bau8PWMVX-PGoc/edit?usp=sharing" target="_blank">More Findings</a>
-            </div>
-          </div>
+        <div class="card">
+          <img src="images/busybus-sketches-2.png" alt="Prototype sketches">
+          <p class="caption">Prototype sketches</p>
         </div>
+      </div>
+      <!-- user testing -->
+      <section id="user-testing1" class="prj-part">
+        <h3>User Testing</h3>
+        <h4>The created three-screen paper prototype of the proposed BusyBus application was tested with three potential users. Based on a <span class="link"><a href="https://docs.google.com/document/d/18vGhInVEqbvTDnxvom9S5CjLJKnNVaHXzZRaSLGyJdE/edit?usp=sharing" target="_blank">usability test script</a>
+       </span>, the paper prototype has been tested and modified based on the findings and feedbacks from the users including lack of user location within the app, icon sizing, and concern for lack of tool & navigation bars.</h4>
       </section>
-      <section id="visual-design" class="visual-design">
-        <div class="phase">
-          <h1><span class="h1-title">03 </span>Visual Design Iterations</h1>
-          <p>Based on the usability test findings as well as constructive critcisms/evaluations from senior designers within Bloc, the following presents the visual design iterations over the BusyBus timeframe.</p><br><br>
-        </div>
+      <!-- hi-fi mockups -->
+      <section id="hi-fi-mockups" class="prj-part">
+        <h3>Hi-Fi Mockups</h3>
+        <h4>Based on the usability test findings as well as constructive critcisms/evaluations from senior designers within Bloc, the following presents the visual design iterations over the BusyBus timeframe using Figma.</h4>
       </section>
-      <img class="busybus-iteration" src="images/busybus-iteration.png" alt="busybus-iteration">
-      <section id="development" class="mockup">
-        <div class="phase">
-          <h1><span class="h1-title">04 </span>Development Phase</h1>
-          <p>Using HTML, CSS, GitHub, and Atom, the main screen of Busy Bus has been developed.</p><br><br>
-        </div>
-        <div>
-          <img class="tools" src="images/tools.png" alt="tools">
-        </div>
-      </section>
-      <section class="development">
-        <img class="develop" src="images/developvsdesign.png" alt="developvsdesign">
-      </section>
-      <div class= "end">
-        <div class="previous">
-          <a href="./edulife.html"><img class="previous-button" src="images/previous.png" alt="previous-project"></a>
-          <a href="./edulife.html"><p class="desk1">PREVIOUS PROJECT</p></a>
-        </div>
-        <div class="next">
-          <a href="./PSCF.html"><p class="desk1">NEXT PROJECT</p></a>
-          <a href="./PSCF.html"><img class="previous-button" src="images/next.png" alt="next-project"></a>
+      <div class="scrolling-wrapper" data-flickity=''>
+        <div class="card">
+          <img src="images/busybus-screenshot.png" alt="Hi-fi mockup">
+          <p class="caption">Mobile screenshots for iOS</p>
         </div>
       </div>
 
-      <div class="page-divider"></div>
-<footer id="contact-me">
-  <div class="email">
-    <a href="mailto:avagnadel@gmail.com">
+      <!--Conclusion-->
+       <section id="development" class="prj-part">
+         <h3>Development Phase</h3>
+         <h4>Using HTML, CSS, GitHub, and Atom, the main screen of Busy Bus has been developed.</h4>
+          <div class="card">
+         <img class="busybus-iteration" src="images/developvsdesign.png" alt="busybus-iteration">
+      </section>
     </div>
-    <div class="ul-social">
-          <div id="ul-social-media">
-<a href="https://www.linkedin.com/in/ava-nadel-a13a3315a/" target="_blank"><img class="social-logo" src="images/linkedin.png" alt="Linkedin"></a>
-          <a href="https://github.com/avanadel"><img class="social-logo" src="images/github.png" alt="Github"></a>
-        </div>
-      </div>
-       <div class="made-in-usa">
-         <p class="made-in-usa-p">© 2019 Design + Development by Ava Nadel</p>
-          </div>
-  </footer>
-    </main>
 
-  <script>
-  function mobilemenutoggle() {
-      $("#mobile-menu").toggleClass('open');
-  }
-  $(window).resize(function () {
-      $('#mobile-menu ul').hide();
-      if ($(window).width() < 767) {
-          //show toggler if not exists
-          if (!($("#mobile-menu-toggler").length > 0)) {
-              var mobilemenuheight = $('#mobile-menu').height();
-              var toggler = "<a id='mobile-menu-toggler' onclick='mobilemenutoggle();' style='height: " + mobilemenuheight + "px; line-height: " + (mobilemenuheight - 1) + "px;'><span class='mobile-menu-text open'></span><span class='mobile-menu-text'></span><span class='mobile-menu-icon'></span></a>";
-              $("#mobile-menu").prepend(toggler);
-          }
-      }
-      $('#mobile-menu ul').attr('style', '')
-      //console.log($('#mobile-menu').css('font-size'));
-  });
-  $(window).resize();
-  </script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147967840-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      <!-- conclusion -->
+      <section id="conclusion" class="prj-part">
+        <h3>Conclusion</h3>
+        <h4>The MVP, BusyBus addresses the main problem set out to solve within the public transit system, a usable, navigable iOS application to assist bus riders at Washington & State. Users are able to easily view the location of the next arriving bus that’s within their vicinity on their screen. Bus locations are also properly labeled with their line number so users are never confused as to which direction their bus is coming from. Hierarchy is applied to easily see which bus line arrives in a set amount of time with active bus lines in blue, rerouted buses in red with out of service buses in grey.
+          Users have access to seeing all lines arriving at the bus stop of their choice after selecting the bus stop nearest to them. For added ease of navigation and use, a navigation bar below allows the user to access their account, ask for help, and search for bus lines/stops.</h4>
+      </section>
+    </div>
 
-  gtag('config', 'UA-147967840-1');
-</script>
+    <!-- to top button -->
+    <button onclick="topFunction()" id="toTop" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
+      <i class="material-icons md-36">expand_less</i>
+    </button>
+
+    <!-- footer -->
+    <footer>
+      <h6>© Ava Nadel 2020</h6>
+    </footer>
+
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/toTop.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script src="scripts/graph.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   </body>
-  </html>
+</html>
