@@ -1,115 +1,224 @@
 <!DOCTYPE html>
-<html class="gr_avanadel_design" lang="en" style="overflow-x: hidden;">
- <head>
-  <title>Ava Nadel|Portfolio</title>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="styles/reset.css">
-  <link rel="stylesheet" type="text/css" href="styles/style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-  <script src="js/jQuery.js"></script>
-</head>
+<html lang="en">
+  <head>
 
-<body>
-  <div id="wrapper">
-    <nav>
-      <a href="index.html">
-        <img class="anlogo"  src="images/Ava-Logo.png" alt="Ava Nadel" height="50" width="142">
-      </a>
+    <title>Ava Nadel | UX/UI Designer Portfolio</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <!-- Reset -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <!-- Font Awesome -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="./styles/main.css" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-      <div id="mobile-menu">
-        <ul class="navmenu">
-  <li class="navitem">
-  <a class="navlink" href="mailto:avagnadel@gmail.com">Contact</a>
-</li>
-<li class="navitem">
-<a class="navlink" href="images/AvaNadel_Resume.png">Resume</a>
-</li>
-<li class="navitem">
-  <a class="navlink" href="about.html">About</a>
-</li>
-<li class="navitem">
-<a class="navlink" href="index.html#Work">Work</a>
-</li>
-</ul>
-    </div>
-    </nav>
+  <body>
+    <header id="top">
+      <div class="navigation-container">
+        <nav id="navigation-bar">
+          <a href="./index.html"
+            ><img class="logo" src="./images/Ava-Logo.png"
+          /></a>
+          <div class="hamburger hamburger--slider js-hamburger">
+            <div class="hamburger-box">
+              <div class="hamburger-inner"></div>
+            </div>
+          </div>
+          <ul>
+            <li class="active">
+              <a href="./index.html">
+                <div></div>
+                Home</a
+              >
+            </li>
+            <li><a href="#main">Work</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li id="nav-li-contact" class="border">
+              <a href="mailto:avagnadel@gmail.com">Contact</a>
+                <li><a href="images/AvaNadel_Resume.png">Resume</a></li>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero-img">
+        <img src="./images/brooklynskyline.png" alt="Hero Image" />
+      </div>
+      <div class="container-">
+        <section class="introduction">
+          <h1><strong>Hi! I'm Ava.</strong></h1>
+          <h2 style="margin-bottom: 10px;">
+            A <strong>UX/UI designer</strong> based in
+            <strong>Brooklyn, NY</strong>.
+          </h2>
+          <p class="text-description" style="margin-bottom: 50px;">
+            I'm passionate about creating user-centric experiences
+            that bring everyone together that are purposeful and innovative.
+          </p>
+          <ul class="flex-list">
+            <li class="inverted" id="li-contact">
+              <a href="./contact.html">CONTACT</a>
+            </li>
+            <li class="plain-invertible">
+              <a href="./about.html">READ MORE</a>
+            </li>
+          </ul>
+        </section>
+        <hr />
+      </div>
+    </header>
 
-    <main>
-      <section class="hero">
-        <div class="hello">
-          <p class="intro">Hi! I’m Ava, a Brooklyn based UX|UI Researcher & Designer. With a sociology background, I enjoy creating user-centric and impactful human experiences.</h1>
+    <div id="main">
+      <h1>Case Studies</h1>
+      <br />
+      <div>
+        <div class="case-studies">
+          <section class="work">
+            <a href="./busybus.html"
+              ><img
+                style="background: white"
+                src="./images/busybus-homepage.png"
+                alt="Busy Bus Case Study"
+            /></a>
+            <h3>BusyBus</h3>
+            <ul class="flex-list">
+              <li>User Research</li>
+              <li>UX/UI Design</li>
+              <li>HTML/CSS</li>
+            </ul>
+            <p class="text-description" style="max-width: 486px;">
+              An app that provides its users with reliable bus transportation
+                information such as routes, times and directions.
+            </p>
+            <span class="full-case-study-link">
+              <a href="./busybus.html">View Full Case Study</a> &nbsp;
+              <img src="./images/meshi/homepage/fullcasestudy.svg" alt="" />
+            </span>
+          </section>
+          <section class="work" style="margin-bottom:45px;">
+            <a href="./edulife.html"
+              ><img
+                style="background: white"
+                src="./images/edulife-homepage.png"
+                alt="edulife Case Study"
+            /></a>
+            <h3>edulife</h3>
+            <ul class="flex-list">
+              <li>User Research</li>
+             <li>UX/UI Design</li>
+             <li>User Testing</li>
+             <li>Branding</li>
+            </ul>
+            <p class="text-description" style="max-width: 486px;">
+              A news app that utilizes artificial intelligence to provide summarize
+              and remove bias from news so users can stay updated despite a busy
+              lifestyle.
+            </p>
+            <span class="full-case-study-link">
+              <a href="./edulife.html">View Full Case Study</a> &nbsp;
+            </span>
+          </section>
         </div>
-      </section>
 
-      <section id="Work" class="content">
-        <div class="project1-text">
-          <h2 class="project-head-left">BusyBus</h2>
-          <p class="project-description-left">A mobile, public transit app serving riders at Washington & State.</p>
-          <a href="busybus.html" class="CTA">Case Study</a>
-        </div>
-        <div class="project1-image">
-          <img class="project1-image" src="images/busybus-homepage.png" alt="BusyBus Homepage">
-        </div>
-      </section>
+        <hr />
+        <section class="process">
+          <h1 style="margin-bottom: 60px;">My Approach to Design</h1>
+          <img
+            src="./images/meshi/homepage/designdrawing.svg"
+            alt="My design process"
+          />
+          <div class="design-process">
+            <div class="row">
+              <div class="col">
+                <div class="info">
+                  <h3>Research</h3>
+                  <p>
+                    User Interviews & Survey, Competitive Analysis, Card Sorting
+                  </p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="info">
+                  <h3>Design</h3>
+                  <p>
+                    Branding & Identity, Sketching, Wireframing, Mockups, Basic
+                    Frontend
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="info">
+                  <h3>Analysis</h3>
+                  <p>
+                    User Stories, User Flows, User Personas, Sitemap, Content
+                    Strategy
+                  </p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="info">
+                  <h3>Testing</h3>
+                  <p>
+                    Interactive prototypes, User Testing, Script Development,
+                    Refinement
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr />
+        <section class>
+          <h1>Tools I Use</h1>
+          <div class="tools">
+            <img src="./images/Figma.png" alt="Figma" />
+            <img src="./images/Sketch.png" alt="Sketch" />
+    <img src="./images/Atom.png" alt="Atom" />
+            <img src="./images/inVision.png" alt="inVision" />
+
+          </div>
+        </section>
+        <hr />
 
 
-      <section class="content2">
-        <div class="project2-text">
-          <h2 class="project-head-right">edulife</h2>
-          <p class="project-description-right">A cloud storage application for students.</p>
-          <a href="edulife.html" class="CTA alt">Case Study</a>
-        </div>
-        <div class="project2-image">
-          <img class="project2-image" src="images/edulife-homepage.png" alt="edulife homepage" style="width: 600px">
-        </div>
-      </section>
-    </main>
-  </div>
-  <div class="page-divider"></div>
-  <footer class="footer-main container">
-    <p class="footer-text">© 2019 Design + Development by Ava Nadel</p>
-    <ul class="footer-info">
-      <li class="footer-social">
-        <a href="https://www.linkedin.com/in/ava-nadel-a13a3315a/">
-          <i class="fab fa-linkedin-in" height="40" width="40"></i>
-        </a>
-      </li>
-      <li class="footer-social">
-        <a href="https://github.com/avanadel">
-          <i class="fab fa-github"></i>
-        </a>
-      </li>
-      <li class="footer-social">
-        <a href="mailto:avagnadel@gmail.com">
-          <i class="far fa-envelope-open"></i>
-        </a>
-      </li>
-    </ul>
-  </footer>
-  <script>
-  function mobilemenutoggle() {
-      $("#mobile-menu").toggleClass('open');
-  }
-  $(window).resize(function () {
-      $('#mobile-menu ul').hide();
-      if ($(window).width() < 767) {
-          //show toggler if not exists
-          if (!($("#mobile-menu-toggler").length > 0)) {
-              var mobilemenuheight = $('#mobile-menu').height();
-              var toggler = "<a id='mobile-menu-toggler' onclick='mobilemenutoggle();' style='height: " + mobilemenuheight + "px; line-height: " + (mobilemenuheight - 1) + "px;'><span class='mobile-menu-text open'></span><span class='mobile-menu-text'></span><span class='mobile-menu-icon'></span></a>";
-              $("#mobile-menu").prepend(toggler);
-          }
-      }
-      $('#mobile-menu ul').attr('style', '')
-      //console.log($('#mobile-menu').css('font-size'));
-  });
-  $(window).resize();
-  </script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <footer>
+      <div class="footer">
+        <section class="footer">
+          <div class="icons">
+            <a href="https://github.com/avanadel"
+              ><img src="./images/Github.png" alt="Github Icon"
+            /></a>
+            <a href="mailto:avagnadel@gmail.com"
+              ><img src="./images/Gmail.png" alt="Gmail Icon"
+            /></a>
+            <a href="https://linkedin.com/in/avan"
+              ><img src="./images/Linkedin.png" alt="Linkedin Icon"
+            /></a>
+
+          </div>
+          <div class="copyright">
+            <p>© Ava Nadel 2020</p>
+          </div>
+        </section>
+      </div>
+    </footer>
+    <script src="./scripts/main.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147967840-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];

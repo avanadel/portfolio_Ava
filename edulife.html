@@ -1,52 +1,103 @@
 <!DOCTYPE html>
-<html class="gr_avanadel_design" lang="en" style="overflow-x: hidden;">
+<html lang="en" dir="ltr">
   <head>
-  <title>edulife Case Study</title>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="styles/reset.css">
-  <link rel="stylesheet" type="text/css" href="styles/style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-  <script src="js/jQuery.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>edulife | Case Study</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133288225-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-133288225-1');
+    </script>
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo-simple.png"/>
+
+    <!-- MDL -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.orange-light_blue.min.css" />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- custom styles -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/wet2abt.css">
+    <link rel="stylesheet" href="styles/flickity.css">
+    <link rel="stylesheet" href="styles/main.css">
   </head>
-
   <body>
-    <div id="wrapper">
-      <nav>
-        <a href="index.html">
-          <img class="anlogo"  src="images/Ava-Logo.png" alt="Ava Nadel" height="50" width="142">
-        </a>
-
-        <div id="mobile-menu">
-          <ul class="navmenu">
-    <li class="navitem">
-    <a class="navlink" href="mailto:avagnadel@gmail.com">Contact</a>
-  </li>
-  <li class="navitem">
-  <a class="navlink" href="images/AvaNadel-Resume.png">Resume</a>
-  </li>
-  <li class="navitem">
-    <a class="navlink" href="about.html">About</a>
-  </li>
-  <li class="navitem">
-  <a class="navlink" href="index.html#Work">Work</a>
-  </li>
-  </ul>
+    <header>
+      <div id="logo">
+        <a href="http://avanadel.design"><img src="images/Ava-Logo.png" alt="Ava Nadel"></a>
       </div>
-      </nav>
+      <div id="nav-icon" onclick="openMenu(this)">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div id="menu" class="closed">
+        <div class="overlay-content">
+          <a href="http://avanadel.design/index.html">Home</a>
+          <a href="http://avanadel.design/index.html#Work">Work</a>
+          <a href="http://avanadel.design/about.html">About</a>
+          <a href="http://avanadel.design/mailto:avagnadel@gmail.com">Contact</a>
+          <a href="documents/AvaNadel_Resume.png" target="_blank">Resume</a>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <!-- project header -->
+      <section id="description" class="prj-part" style="padding-top: 2rem;">
+        <h2>edulife</h2>
+        <h4>A desktop cloud storage platform for the everyday student.</h4>
+        <img src="images/busybussolution.png" alt="BusyBus screenshots" class="only-pics">
+      </section>
+      <!-- roles/deliverables/tools table -->
+      <section id="roles" class="prj-part">
+        <div class="table">
+          <div class="column-one">
+            <div style="order:1" class="table-cell table-header"><p>Roles</p></div>
+            <div style="order:2" class="table-cell">UX Research</div>
+            <div style="order:3" class="table-cell">UI/UX Design</div>
+            <div style="order:4" class="table-cell">Branding & Identity</div>
 
-  <div class="top-section">
-    <div class="section-wide" style="padding: 0">
-      <div class="hero">
-        <div class="words">
-          <project-name style="color:#FFF; font-size: 6em; font-family: 'Montserrat', sans-serif;">edulife</project-name>
-          <p style="font-size:2.2rem; color:#000080;; font-family: 'Open Sans', sans-serif; ">A cloud storage platform for the everyday student.</p>
-</div>
-</div>
-</div>
+          </div>
+
+          <div class="column-two">
+            <div style="order:1" class="table-cell table-header"><p>Deliverables</p></div>
+            <div style="order:2" class="table-cell">Wireframes</div>
+            <div style="order:2" class="table-cell">Content Strategy</div>
+            <div style="order:2" class="table-cell">User Research</div>
+            <div style="order:2" class="table-cell">Competitive Analysis</div>
+            <div style="order:3" class="table-cell">Wireframe Prototype</div>
+            <div style="order:4" class="table-cell">User Personas</div>
+            <div style="order:5" class="table-cell">User Stories & Flows</div>
+          </div>
+
+          <div class="column-three">
+            <div style="order:1" class="table-cell table-header"><p>Tools</p></div>
+            <div style="order:2" class="table-cell">Pen and paper</div>
+            <div style="order:3" class="table-cell">Figma</div>
+              <div style="order:3" class="table-cell">Marvel</div>
+            <div style="order:3" class="table-cell">Atom</div>
+            <div style="order:3" class="table-cell">Draw.io</div>
+            <div style="order:3" class="table-cell">Google Forms</div>
+            <div style="order:4" class="table-cell">UsabilityHub</div>
+          </div>
+        </div>
+      </section>
+
+      <span class="plain-invertible">
+            <a target="_blank" href="https://invis.io/78TUBC7BKTS">VIEW INVISION PROTOTYPE</a>
+          </span>
+        </div>
 
 <div id="body">
   <div class="case-study-screens">

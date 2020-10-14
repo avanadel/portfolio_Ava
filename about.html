@@ -4,107 +4,152 @@
   <title>Ava Nadel|Biography</title>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles/reset.css">
-  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" type="text/css" href="styles/about-style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <script src="js/jQuery.js"></script>
   </head>
 
-<body>
-    <div id="wrapper">
-      <nav>
-        <a href="index.html">
-          <img class="anlogo"  src="images/Ava-Logo.png" alt="Ava Nadel" height="50" width="142">
-        </a>
+  <body>
+     <header id='top'>
+       <div class="navigation-container">
+         <nav id="navigation-bar">
+           <a href="./index.html"
+             ><img class="logo" src="./images/Ava-Logo.png"
+           /></a>
+           <div class="hamburger hamburger--slider js-hamburger">
+               <div class="hamburger-box">
+                 <div class="hamburger-inner"></div>
+               </div>
+             </div>
+           <ul>
+             <li>
+               <a href="./index.html">Home</a>
+             </li>
+             <li><a href="./index.html#work">Work</a></li>
+             <li class="active"><a href="./about.html"> <div></div> About</a></li>
+             <li class="border" id="nav-li-contact">
+               <a href="./contact.html">Contact</a>
+             </li>
+           </ul>
+         </nav>
+       </div>
+       <div class="main">
+         <div class="container">
+           <div class="container">
+             <section class="introduction" id="about-me">
+               <img
+                 src="./images/headshot.png"
+                 alt="Profile photo"
+                 width="460"
+                 height="613"
+               />
+               <div class="about-me">
+                 <h1><strong>Hi! I'm Ava.</strong></h1>
+                 <br>
 
-        <div id="mobile-menu">
-          <ul class="navmenu">
+               </div>
+             </section>
+         </div>
+       </div>
+     </header>
 
-    <li class="navitem">
-    <a class="navlink" href="mailto:avagnadel@gmail.com">Contact</a>
-  </li>
-  <li class="navitem">
-  <a class="navlink" href="images/AvaNadel_Resume.png">Resume</a>
-  </li>
-  <li class="navitem">
-    <a class="navlink" href="about.html">About</a>
-  </li>
-  <li class="navitem">
-  <a class="navlink" href="index.html#Work">Work</a>
-  </li>
-  </ul>
-      </nav>
-      </div>
+     <br>
 
-<section class="main-container-about">
-<div class="about-top">
-<div class="about-background">
-<div class="about-content">
-<img class="headshot" src="images/headshot.png" alt="Ava Nadel">
-
-<br>
-<br>
-
-<p class="about-text-bottom">
-  I completed my year of service with AmeriCorps craving an even richer experience,
+     <section class="bio">
+               <p>
+  I completed my year of service with AmeriCorps in 2018 craving a richer experience,
   one where I could still serve others and best utilize my Sociology degree to integrate the ability to be both empathetic, observant of cognitive behavior
   and social relationships into the world of design.
 </p>
+          <br>
 
-<br>
-<br>
-
-<p class="about-text-bottom">
+          <p>
   Design has and continues to give me the ability to pursue both a creative and open-minded approach to all facets of my life,
   from the clothing I buy to the nutrition tracker I use, to choosing Doordash or Postmates.
   Design has empowered me to live critically and consciously, to collaborate effectively, to empathize deeply;
   it has irrevocably changed my view of the world;
   it has gifted me with the importance of realizing that progress is not linear but is always on an upward trajectory.
-</p>
-<br>
-<br>
+  </p><br>
 
-<p class="about-text">
+<section class="lessons" style="position: relative">
 As a biracial woman born and raised in Brooklyn, I grew up witnessing how diverse
 societies allow us to be productive innovators.
 As designers and researchers, our designs cannot produce an effective user experience without empathy for all users.
 I seek to further foster a user base that rises above biases, removes complacency, and ethnic representation through the user experience.
 </p>
+<div class="down-border"></div>
+         </section>
+
+<br>
+
+         <section class="contact">
+           <h1>Let's talk!</h1>
+           <p>
+             Let's chat about creating user experiences, how to UX our lives, and UX/design trends over coffee! ☕
+           </p>
+           <div class="lets-talk-buttons">
+             <ul class="flex-list">
+               <li class="plain-invertible">
+                 <a href="./contact.html">CONTACT</a>
+               </li>
+               <li class="plain-invertible">
+                 <a href="images/Ava-Nadel.png" target="_blank"
+                   >DOWNLOAD RESUME</a
+                 >
+               </li>
+             </ul>
+             <span class="return-to-top">
+               <a href="#top"
+                 ><img
+                   src="./images/return-top.png"
+                   alt="Return to top"
+               /></a>
+
+               <a href="#top">Return to top</a>
+             </span>
+           </div>
+         </section>
+       </div>
+     </div>
+
+             <footer>
+               <div class="footer">
+                 <section class="footer">
+                   <div class="icons">
+                     <a href="https://github.com/avanadel/"
+                       ><img src="./images/Github.png" alt="Github Icon"
+                     /></a>
+                     <a href="mailto:avagnadel@gmail.com"
+                       ><img src="./images/Gmail.png" alt="Gmail Icon"
+                     /></a>
+                     <a href="https://www.linkedin.com/in/avanadel/"
+                       ><img src="./images/Linkedin.png" alt="Linkedin Icon"
+                     /></a>
+                   </div>
+                   <div class="copyright">
+                     <p>© Ava Nadel 2020</p>
+                   </div>
+                 </section>
+               </div>
+             </footer>
+             <script src="./scripts/main.js"></script>
+             <script>
+               /** Automatically close work link when pressed as it does not direct to a new page */
+               (function() {
+                 document
+                   .querySelector('a[href="#main"]')
+                   .addEventListener("click", toggleMenu);
+               })();
+             </script>
+           </body>
+         </html>
 
 
-<div class="about-button-position">
-</div>
-<a class="about-button" href="mailto:avagnadel@gmail.com">CONTACT ME</a>
-</div>
-</div>
-</div>
-</section>
 
 
-<div class="page-divider"></div>
-<footer class="footer-main container">
-<p class="footer-text">© 2019 Design + Development by Ava Nadel</p>
-<ul class="footer-info">
-          <li class="footer-social">
-          <a href="https://www.linkedin.com/in/ava-nadel-a13a3315a/">
-          <i class="fab fa-linkedin-in" height="40" width="40"></i>
-          </a>
-        </li>
-        <li class="footer-social">
-          <a href="https://github.com/avanadel">
-          <i class="fab fa-github"></i>
-          </a>
-        </li>
-        <li class="footer-social">
-          <a href="mailto:avagnadel@gmail.com">
-          <i class="far fa-envelope-open"></i>
-          </a>
-        </li>
-  			</ul>
-  </footer>
   <script>
   function mobilemenutoggle() {
       $("#mobile-menu").toggleClass('open');
