@@ -10,7 +10,6 @@ html {
 html,
 body {
   color: #333333;
-
   height: 100%;
   font-size: 17px;
   line-height: 25px;
@@ -43,7 +42,7 @@ p {
 
 hr {
   margin: 80px 0;
-  border: 1px solid #e3256b;
+  border: 1px solid #e3256b6b;
 }
 
 h1 {
@@ -128,7 +127,7 @@ td {
 }
 
 .introduction > ul > li {
-  border: 3px solid #e3256b;
+  border: 3px solid #ae8d92;
   list-style-type: none;
   padding: 4px 32px;
   border-radius: 20px;
@@ -139,16 +138,16 @@ td {
 
 .introduction > ul > li.inverted {
   color: white;
-  background-color: #e3256b;
+  background-color: #ae8d92;
 }
 
 .introduction > ul > li > a {
   text-decoration: none;
-  color: #e3256b;
+  color: #ae8d92;
 }
 
 #li-contact {
-  background-color: #e3256b;
+  background-color: #ae8d92;
 }
 
 #li-contact > a {
@@ -228,7 +227,7 @@ td {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 3px solid #e3256b;
+  border: 3px solid #ae8d92;
   border-radius: 20px;
   padding: 4px 48px;
   background-color: transparent;
@@ -311,6 +310,7 @@ td {
 
 .footer {
   height: 160px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -325,7 +325,7 @@ td {
 }
 
 .copyright > p {
-  color: #24262b75;
+  color: #333333;
   letter-spacing: 0.2em;
 }
 
@@ -543,7 +543,7 @@ table {
   }
 
   header {
-    background: linear-gradient(180deg, #fbefeb26 0%, #fff 100%);
+    background: linear-gradient(180deg, #fbefeb00; 0%, #ffffff 100%);
   }
 
   section.linking {
@@ -743,7 +743,7 @@ table {
     position: fixed;
     flex-direction: column;
     align-content: center;
-    background: rgba(227, 216, 212, 0.85);
+    background: #e3256b0d;
     top: 0;
     bottom: 0;
     right: 0;
@@ -969,7 +969,7 @@ table {
   }
 
   header {
-    background: linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
+    background: linear-gradient(180deg, #fbefeb00 0% #ffffff 100%);
   }
   .introduction > ul > li > a,
   .lets-talk-buttons > ul > li > a,
@@ -1193,7 +1193,7 @@ table {
   .underline > li:after {
     width: 0%;
     height: 2px;
-    background-color: #e3256b;
+    background-color: #bba7a1;
     content: "";
     transition: width 0.3s;
   }
@@ -1218,7 +1218,7 @@ table {
 
   #navigation-bar > ul > li.border {
     border-radius: 32px;
-    border: 1px solid #e3256b57;
+    border: 1px solid #bba7a1;
   }
 
   .lets-talk-buttons {
@@ -1811,12 +1811,12 @@ li.active > a {
 }
 
 li.active > a > div {
-  position: absolute;
-  width: 100%;
-  background-color: black;
-  height: 150%;
-  background: linear-gradient(45deg, #ae8d92, #e3d8d4);
-  z-index: -1;
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    height: 150%;
+    background: linear-gradient(45deg, #FFFFFF, #ffff);
+    z-index: -1;
 }
 
 img light-box-item {
