@@ -1,232 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ava Nadel | Portfolio</title>
 
-    <title>Ava Nadel | UX/UI Designer Portfolio</title>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
-    />
-    <!-- Reset -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133288225-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+
+ gtag('config', 'UA-147967840-1');
+    </script>
+
+
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo-simple.png"/>
+
+    <!-- Material Design Lite -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.light_blue-orange.min.css" />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
     <!-- Font Awesome -->
-    <link
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
     <!-- Custom Styles -->
-    <link rel="stylesheet" href="styles/main.css" />
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/wet2abt.css">
+    <link rel="stylesheet" href="styles/main.css">
   </head>
-
-  <body>
-    <header id="top">
-      <div class="navigation-container">
-        <nav id="navigation-bar">
-          <a href="./index.html"
-            ><img class="logo" src="./images/Ava-Logo.png"
-          /></a>
-          <div class="hamburger hamburger--slider js-hamburger">
-            <div class="hamburger-box">
-              <div class="hamburger-inner"></div>
-            </div>
-          </div>
-          <ul>
-            <li class="active">
-              <a href="./index.html">
-                <div></div>
-                Home</a
-              >
-            </li>
-            <li><a href="#main">Work</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li id="nav-li-contact" class="border">
-              <a href="./contact.html">Contact</a>
-            </li>
-          </ul>
-        </nav>
+  <body id="homepage">
+    <!-- logo and menu header -->
+    <header>
+      <div id="logo">
+        <a href="https://avanadel.design"><img src="images/Ava-Logo.png" alt="Ava Nadel"></a>
       </div>
-              <!-- content -->
-
-      <div class="hero-img">
-        <img src="./images/brooklynskyline.png" alt="Hero Image" />
+      <div id="nav-icon">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-      <div class="container-">
-        <section class="introduction">
-          <h1><strong>Hi! I'm Ava.</strong></h1>
-          <h2 style="margin-bottom: 10px;">
-            A <strong>UX/UI designer</strong> based in
-            <strong>Brooklyn, NY</strong>.
-          </h2>
-          <p class="text-description" style="margin-bottom: 50px;">
-            I'm passionate about creating user-centric experiences
-            that bring everyone together that are purposeful and innovative.
-          </p>
-          <ul class="flex-list">
-            <li class="inverted" id="li-contact">
-              <a href="./contact.html">CONTACT</a>
-            </li>
-            <li class="plain-invertible">
-              <a href="./about.html">READ MORE</a>
-            </li>
-          </ul>
-        </section>
-        <hr />
+      <div id="menu" class="closed">
+        <div class="overlay-content">
+          <a href="#hero">Home</a>
+          <a href="#projects">Work</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <a href="images/AvaNadel_Resume.png" target="_blank">Resume</a>
+        </div>
       </div>
     </header>
-
-    <div id="main">
-      <h1>Case Studies</h1>
-      <br />
-      <div>
-        <div class="case-studies">
-          <section class="work">
-            <a href="./busybus.html"
-              ><img
-                style="background: white"
-                src="./images/busybus-homepage.png"
-                alt="Busy Bus Case Study"
-            /></a>
-            <h3>BusyBus</h3>
-            <ul class="flex-list">
-              <li>User Research</li>
-              <li>UX/UI Design</li>
-              <li>HTML/CSS</li>
-            </ul>
-            <p class="text-description" style="max-width: 486px;">
-              An app that provides its users with reliable bus transportation
-                information such as routes, times and directions.
-            </p>
-            <span class="full-case-study-link">
-              <a href="./busybus.html">View Full Case Study</a> &nbsp;
-              <img src="./images/meshi/homepage/fullcasestudy.svg" alt="" />
-            </span>
-          </section>
-          <section class="work" style="margin-bottom:45px;">
-            <a href="./edulife.html"
-              ><img
-                style="background: white"
-                src="./images/edulife-homepage.png"
-                alt="edulife Case Study"
-            /></a>
-            <h3>edulife</h3>
-            <ul class="flex-list">
-              <li>User Research</li>
-             <li>UX/UI Design</li>
-             <li>User Testing</li>
-             <li>Branding</li>
-            </ul>
-            <p class="text-description" style="max-width: 486px;">
-              A news app that utilizes artificial intelligence to provide summarize
-              and remove bias from news so users can stay updated despite a busy
-              lifestyle.
-            </p>
-            <span class="full-case-study-link">
-              <a href="./edulife.html">View Full Case Study</a> &nbsp;
-            </span>
-          </section>
+    <!-- page steppers -->
+    <ul id="steppers">
+      <li id="stepOne" caption="Home" class="activeStepper"></li>
+      <li id="stepTwo" caption="Work"></li>
+      <li id="stepThree" caption="About"></li>
+      <li id="stepFour" caption="Contact"></li>
+    </ul>
+    <!-- content -->
+    <div class="container">
+      <section id="hero" class="homepage-section">
+        <div class="hero-text">
+          <h1>Hi! I'm Ava.</h1>
+          <h5>I’m a Brooklyn-based, born, & raised <span class="highlight">user experience designer & researcher</span> with a passion for <span class="highlight">innovative design</span> and <span class="highlight">human-centered problem solving.</span></h5>
         </div>
-
-        <hr />
-        <section class="process">
-          <h1 style="margin-bottom: 60px;">My Approach to Design</h1>
-          <img
-            src="./images/meshi/homepage/designdrawing.svg"
-            alt="My design process"
-          />
-          <div class="design-process">
-            <div class="row">
-              <div class="col">
-                <div class="info">
-                  <h3>Research</h3>
-                  <p>
-                    User Interviews & Survey, Competitive Analysis, Card Sorting
-                  </p>
-                </div>
-              </div>
-              <div class="col">
-                <div class="info">
-                  <h3>Design</h3>
-                  <p>
-                    Branding & Identity, Sketching, Wireframing, Mockups, Basic
-                    Frontend
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <div class="info">
-                  <h3>Analysis</h3>
-                  <p>
-                    User Stories, User Flows, User Personas, Sitemap, Content
-                    Strategy
-                  </p>
-                </div>
-              </div>
-              <div class="col">
-                <div class="info">
-                  <h3>Testing</h3>
-                  <p>
-                    Interactive prototypes, User Testing, Script Development,
-                    Refinement
-                  </p>
-                </div>
-              </div>
-            </div>
+      </section>
+      <div id="below-hero"></div>
+      <section id="projects" class="homepage-section">
+        <div class="project">
+          <div class="prj-title">
+            <h2>edulife</h2>
           </div>
-        </section>
-        <hr />
-        <section class>
-          <h1>Tools I Use</h1>
-          <div class="tools">
-            <img src="./images/Figma.png" alt="Figma" />
-            <img src="./images/Sketch.png" alt="Sketch" />
-    <img src="./images/Atom.png" alt="Atom" />
-            <img src="./images/inVision.png" alt="inVision" />
-
+          <img src="images/edulife-homepage.png" alt="edulife" class="only-pics prj-screenshot">
+          <div class="prj-text">
+            <p>Concept design for a high-quality sharing, uploading, collaboration, organization app for web.</p>
+            <a href="https://avanadel.design/edulife.html" class="button" style="margin-top: 10%;">Case Study</a>
           </div>
-        </section>
-        <hr />
+        </div>
+        <div class="project">
+          <div class="prj-title">
+            <h2>BusyBus</h2>
+          </div>
+          <img src="images/busybus-homepage.png" alt="BusyBus" class="only-pics prj-screenshot" style="height: 25rem;">
+          <div class="prj-text">
+            <p style="margin: 10% 0 5% 0;">Concept design that provides its users with reliable bus transportation
+                information such as routes, times and directions.</p>
+            <a href="https://avanadel.design/busybus.html" class="button" style="margin-top: 10%;">Case Study</a>
+          </div>
+        </div>
+      </section>
+      <div id="below-projects"></div>
+      <section id="about" class="homepage-section">
+        <div class="about-title">
+          <h2>About</h2>
+        </div>
+        <div class="about-text">
+          <img src="images/it-me.png" alt="Ava Nadel irl" class="only-pics">
+          <h4>I didn’t know UX design was a career option when I started working three years ago at a medical software company. I was a software tester, and my job was to make sure not only that the software worked, but that it was “a joy to use”. Throughout my time there, there was a huge company-wide initiative to focus more on usability as a way to set us apart from our competitors. As a result, I worked more closely with our UX designers, which were in short supply, and took on a lot of the UX research for my individual projects. <br><br> The more I got involved with UX and learning core UX principles, the more fascinated I was. Going on work trips to various hospitals and watching cardiologists and technologists use the tools I helped make really impressed upon me the importance of good design, especially in a critical setting like the cath lab. <br><br>Suddenly, it clicked. Why not just become a full-time UX designer? That was already the most interesting part of my job. <br><br>Now, I love that I can indulge my analytical and problem-solving side by finding code solutions while also being able to flex my creative design muscles--it’s the best of both worlds. If you’re as passionate about good UX design and want to learn more about me, please don’t hesitate to get in touch.</h4>
+        </div>
+      </section>
+      <div id="below-about"></div>
+      <section id="contact" class="homepage-section">
+        <div class="contact-block">
 
+            <ul class="contact-links">
+              <li>
+                <a href="https://www.linkedin.com/in/avanadel/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a href="https://github.com/rainazheng"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a href="mailto:avagnadel@gmail.com"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
 
+    <!-- footer -->
     <footer>
-      <div class="footer">
-        <section class="footer">
-          <div class="icons">
-            <a href="https://github.com/avanadel"
-              ><img src="./images/Github.png" alt="Github Icon"
-            /></a>
-            <a href="mailto:avagnadel@gmail.com"
-              ><img src="./images/Gmail.png" alt="Gmail Icon"
-            /></a>
-            <a href="https://linkedin.com/in/avan"
-              ><img src="./images/Linkedin.png" alt="Linkedin Icon"
-            /></a>
-
-          </div>
-          <div class="copyright">
-            <p>© Ava Nadel 2020</p>
-          </div>
-        </section>
-      </div>
+      <h6>© Ava Nadel 2020</h6>
     </footer>
-    <script src="./scripts/main.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147967840-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', 'UA-147967840-1');
-  </script>
-</body>
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="scripts/localWaypoints.js"></script>
+  </body>
 </html>
