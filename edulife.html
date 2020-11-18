@@ -1,59 +1,68 @@
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>edulife | Case Study</title>
+    <title>Ava Nadel | Portfolio</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147967840-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133288225-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
 
-      gtag('config', 'UA-147967840-1');
+ gtag('config', 'UA-147967840-1');
     </script>
 
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo-simple.png"/>
 
-     <!-- MDL -->
+    <!-- Material Design Lite -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.orange-light_blue.min.css" />
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+  <link rel="stylesheet" href="./material.min.css">
+<script src="./material.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
     <!-- Font Awesome -->
-     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- custom styles -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Custom Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/wet2abt.css">
-    <link rel="stylesheet" href="styles/flickity.css">
-    <link rel="stylesheet" href="styles/casestudy.css">
-     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
   </head>
-
-  <body>
+  
+  <body id="homepage">
+    <!-- logo and menu header -->
     <header>
       <div id="logo">
-        <a href="http://avanadel.design"><img src="images/Ava-Logo.png" alt="Ava Nadel"></a>
+        <a href="https://avanadel.design"><img src="images/Ava-Logo.png" alt="Ava Nadel"></a>
       </div>
-      <div id="nav-icon" onclick="openMenu(this)">
+      <div id="nav-icon">
         <span></span>
         <span></span>
         <span></span>
       </div>
       <div id="menu" class="closed">
         <div class="overlay-content">
-          <a href="http://avanadel.design/index.html">Home</a>
-          <a href="http://avanadel.design/index.html#Work">Work</a>
-          <a href="http://avanadel.design/about.html">About</a>
-          <a href="http://avanadel.design/mailto:avagnadel@gmail.com">Contact</a>
+          <a href="#hero">Home</a>
+          <a href="#projects">Work</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
           <a href="images/AvaNadel_Resume.png" target="_blank">Resume</a>
         </div>
       </div>
-
     </header>
-
+    <!-- page steppers -->
+    <ul id="steppers">
+      <li id="stepOne" caption="Home" class="activeStepper"></li>
+      <li id="stepTwo" caption="Work"></li>
+      <li id="stepThree" caption="About"></li>
+      <li id="stepFour" caption="Contact"></li>
+    </ul>
 
     <div class="container">
       <!-- project header -->
@@ -387,39 +396,16 @@ The MVP for this design addresses the main problem we set out to solve in the cl
                 </li>
           			</ul>
           </footer>
-  
 
-      <!-- scripts -->
-      <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-      <script src="scripts/menu.js"></script>
-      <script src="scripts/toTop.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
-      <script src="scripts/graph.js"></script>
-      <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    </body>
-  </html>
-</div>
-
-
-  <script>
-  function mobilemenutoggle() {
-      $("#mobile-menu").toggleClass('open');
-  }
-  $(window).resize(function () {
-      $('#mobile-menu ul').hide();
-      if ($(window).width() < 767) {
-          //show toggler if not exists
-          if (!($("#mobile-menu-toggler").length > 0)) {
-              var mobilemenuheight = $('#mobile-menu').height();
-              var toggler = "<a id='mobile-menu-toggler' onclick='mobilemenutoggle();' style='height: " + mobilemenuheight + "px; line-height: " + (mobilemenuheight - 1) + "px;'><span class='mobile-menu-text open'></span><span class='mobile-menu-text'></span><span class='mobile-menu-icon'></span></a>";
-              $("#mobile-menu").prepend(toggler);
-          }
-      }
-      $('#mobile-menu ul').attr('style', '')
-      //console.log($('#mobile-menu').css('font-size'));
-  });
-  $(window).resize();
+  <!-- scripts -->
+     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+     <script src="scripts/menu.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+     <script src="scripts/localWaypoints.js"></script>
+   </body>
+ </html>
   </script>
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147967840-1"></script>
   <script>

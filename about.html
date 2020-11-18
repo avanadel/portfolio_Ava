@@ -135,40 +135,16 @@ I seek to further foster a user base that rises above biases, removes complacenc
                  </section>
                </div>
              </footer>
-             <script src="./scripts/main.js"></script>
-             <script>
-               /** Automatically close work link when pressed as it does not direct to a new page */
-               (function() {
-                 document
-                   .querySelector('a[href="#main"]')
-                   .addEventListener("click", toggleMenu);
-               })();
-             </script>
-           </body>
-         </html>
 
 
+  <!-- scripts -->
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="scripts/menu.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+  <script src="scripts/localWaypoints.js"></script>
+</body>
+</html>
 
-
-  <script>
-  function mobilemenutoggle() {
-      $("#mobile-menu").toggleClass('open');
-  }
-  $(window).resize(function () {
-      $('#mobile-menu ul').hide();
-      if ($(window).width() < 767) {
-          //show toggler if not exists
-          if (!($("#mobile-menu-toggler").length > 0)) {
-              var mobilemenuheight = $('#mobile-menu').height();
-              var toggler = "<a id='mobile-menu-toggler' onclick='mobilemenutoggle();' style='height: " + mobilemenuheight + "px; line-height: " + (mobilemenuheight - 1) + "px;'><span class='mobile-menu-text open'></span><span class='mobile-menu-text'></span><span class='mobile-menu-icon'></span></a>";
-              $("#mobile-menu").prepend(toggler);
-          }
-      }
-      $('#mobile-menu ul').attr('style', '')
-      //console.log($('#mobile-menu').css('font-size'));
-  });
-  $(window).resize();
-  </script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147967840-1"></script>
   <script>
