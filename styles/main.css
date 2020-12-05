@@ -284,8 +284,8 @@ header {
 }
 
 .table p {
-  color: #40AEFE;
-  font-family: 'Poppins', sans-serif;
+  color: #4700ea;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
   letter-spacing: 3px;
@@ -296,7 +296,7 @@ header {
 .table-cell {
   width: 100%;
   color: #555;
-  font-family: proxima-nova, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.4rem;
   font-weight: 300;
   line-height: 1.5;
@@ -363,7 +363,7 @@ img {
 }
 
 .caption {
-  color: #888;
+  color: #555;
 }
 
 /* survey responses chart */
@@ -376,8 +376,8 @@ img {
 /* font and typography styling */
 
 h1 {
-  color: #4700EA;;
-  font-family: 'Poppins', sans-serif;
+  color: #4700EA;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 3rem;
   letter-spacing: 2px;
@@ -386,7 +386,7 @@ h1 {
 
 h2 {
   color: #4700ea;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: 2px;
@@ -395,8 +395,8 @@ h2 {
 }
 
 h3 {
-  color: #40AEFE;
-  font-family: 'Poppins', sans-serif;
+  color: #4700ea;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   letter-spacing: 3px;
@@ -406,7 +406,7 @@ h3 {
 
 h4 {
   color: #555;
-  font-family: proxima-nova, sans-serif;
+  font-family: 'Montserrat' sans-serif;
   font-size: 1.4rem;
   font-weight: 300;
   line-height: 1.5;

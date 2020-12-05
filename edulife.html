@@ -1,154 +1,129 @@
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ava Nadel | Portfolio</title>
+    <title>edulife| Case Study</title>
+
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133288225-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147967840-1"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
- function gtag(){dataLayer.push(arguments);}
- gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
- gtag('config', 'UA-147967840-1');
+      gtag('config', 'UA-147967840-1');
     </script>
 
+
     <link rel="stylesheet" href="styles/reset.css">
-    <link rel="shortcut icon" type="image/x-icon" href="images/logo-simple.png"/>
+<link rel="shortcut icon" type="image/x-icon" href="images/logo-simple.png"/>
 
-    <!-- Material Design Lite -->
+    <!-- MDL -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-
-  <link rel="stylesheet" href="./material.min.css">
-<script src="./material.min.js"></script>
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.orange-light_blue.min.css" />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
     <!-- Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- Custom Styles -->
+    <!-- custom styles -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/wet2abt.css">
+    <link rel="stylesheet" href="styles/flickity.css">
     <link rel="stylesheet" href="styles/main.css">
   </head>
-  
-  <body id="homepage">
-    <!-- logo and menu header -->
+  <body>
     <header>
       <div id="logo">
-        <a href="https://avanadel.design"><img src="images/Ava-Logo.png" alt="Ava Nadel"></a>
+        <a href="https://avanadel.design/"><img src="images/Ava-Logo.png" alt="Ava Nadel"></a>
       </div>
-      <div id="nav-icon">
+      <div id="nav-icon" onclick="openMenu(this)">
         <span></span>
         <span></span>
         <span></span>
       </div>
       <div id="menu" class="closed">
         <div class="overlay-content">
-          <a href="#hero">Home</a>
-          <a href="#projects">Work</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
-          <a href="images/AvaNadel_Resume.png" target="_blank">Resume</a>
+          <a href="https://avanadel.design/#hero">Home</a>
+           <a href="https://avanadel.design/#projects">Work</a>
+           <a href="https://avanadel.design/#about">About</a>
+           <a href="https://avanadel.design/#contact">Contact</a>
+           <a href="documents/resume.pdf" target="_blank">Resume</a>
         </div>
       </div>
     </header>
-    <!-- page steppers -->
-    <ul id="steppers">
-      <li id="stepOne" caption="Home" class="activeStepper"></li>
-      <li id="stepTwo" caption="Work"></li>
-      <li id="stepThree" caption="About"></li>
-      <li id="stepFour" caption="Contact"></li>
-    </ul>
-
     <div class="container">
       <!-- project header -->
       <section id="description" class="prj-part" style="padding-top: 2rem;">
         <h2>edulife</h2>
         <h4>A desktop cloud storage platform for the everyday student.</h4>
         <img src="images/edulife-mac.png" alt="edulife-screenshots" class="only-pics">
+        <a href="https://invis.io/UWOURPZSCZG#/328362076_Desktop_-_Create_Account_-_1" target="_blank" class="button">View Desktop Prototype</a>
+        <a href="https://invis.io/69OZ1VCAMDT#/328485197_Mobile_-_Create_Account_-_1" target="_blank" class="button">View Mobile Prototype</a>
       </section>
       <!-- roles/deliverables/tools table -->
       <section id="roles" class="prj-part">
         <div class="table">
           <div class="column-one">
             <div style="order:1" class="table-cell table-header"><p>Roles</p></div>
-            <div style="order:2" class="table-cell">UX Research</div>
-            <div style="order:3" class="table-cell">UI/UX Design</div>
-            <div style="order:4" class="table-cell">Branding & Identity</div>
-
+            <div style="order:2" class="table-cell">Research</div>
+            <div style="order:3" class="table-cell">Design</div>
+            <div style="order:4" class="table-cell">Branding</div>
+            <div style="order:5" class="table-cell table-foot">Testing</div>
           </div>
 
           <div class="column-two">
             <div style="order:1" class="table-cell table-header"><p>Deliverables</p></div>
-            <div style="order:2" class="table-cell">User Survey</div>
-            <div style="order:3" class="table-cell">Competitive Analysis</div>
-            <div style="order:4" class="table-cell">User Personas</div>
-            <div style="order:5" class="table-cell">User Stories & Flows</div>
-            <div style="order:6" class="table-cell">Lo-Fi Wireframes</div>
-            <div style="order:7" class="table-cell">Hi-Fi Wireframe Prototype</div>
-              <div style="order:8" class="table-cell">Brand Guidelines</div>
-                <div style="order:9" class="table-cell">Content Strategy</div>
-                  <div style="order:10" class="table-cell">Hi-Fi Mockups</div>
-                    <div style="order:11" class="table-cell">Usability Testing</div>
-            <div style="order:12" class="table-cell">Final Hi-Fi Prototype</div>
+            <div style="order:2" class="table-cell">Wireframes</div>
+            <div style="order:3" class="table-cell">Hi-fi mockups</div>
+            <div style="order:4" class="table-cell">Clickable prototypes</div>
+            <div style="order:5" class="table-cell table-foot">Brand assets</div>
           </div>
 
           <div class="column-three">
             <div style="order:1" class="table-cell table-header"><p>Tools</p></div>
-
             <div style="order:2" class="table-cell">Pen and paper</div>
             <div style="order:3" class="table-cell">Figma</div>
-              <div style="order:3" class="table-cell">Marvel</div>
-            <div style="order:3" class="table-cell">Atom</div>
-            <div style="order:3" class="table-cell">Draw.io</div>
-            <div style="order:3" class="table-cell">Google Forms</div>
-            <div style="order:4" class="table-cell">UsabilityHub</div>
+            <div style="order:4" class="table-cell">InVision</div>
+            <div style="order:5" class="table-cell"></div>
           </div>
         </div>
       </section>
-
-      <!--problem-->
-
-      <span class="plain-invertible">
-            <a target="_blank" href="https://invis.io/78TUBC7BKTS">VIEW INVISION PROTOTYPE</a>
-          </span>
-        </div>
-
-        <section id="problem" class="prj-part">
-       <h2>The Problem</h2>
-       <h4>The cloud storage market is huge with multiple big-name competitors like Google Drive, Dropbox, etc.
-         It is projected that by 2022, more than 72% of the global organizations will migrate to the cloud from on-premise data centers.
-         But the market is still young and there is scope for a new entrant. The purpose of this project is to identify the right market for a
-         new entrant and design a cloud storage service from scratch with relevant features for that market.</h4>
-
-       </section>
-            <!-- solution -->
+      <!-- problem -->
+      <section id="problem" class="prj-part">
+         <h2>The Problem</h2>
+         <h4>The cloud storage market is huge with multiple big-name competitors like Google Drive, Dropbox, etc.
+           It is projected that by 2022, more than 72% of the global organizations will migrate to the cloud from on-premise data centers.
+           But the market is still young and there is scope for a new entrant. The purpose of this project is to identify the right market for a
+           new entrant and design a cloud storage service from scratch with relevant features for that market.</h4>
+         </section>
+      <!-- solution -->
+      <!-- solution -->
             <section id="solution" class="prj-part">
               <h2>The Solution</h2>
               <h4>A new competitor with innovative
                         features still offers the potential for advantageous competition in the marketplace.
                         How can I prove a new way for students to organize their personal and academic files without the
                         added stress of user directed organization?</h4>
-
-
       </section>
+
       <!-- process -->
-      <section id="process" class="prj-part" style="padding-top: 2rem;">
-      <h2>The Process</h2>
-      </section>
+
+       <section id="process" class="prj-part" style="padding-top: 2rem;">
+       <h2>The Process</h2>
+       </section>
+
       <!-- research and discovery -->
-      <section id="r-and-d" class="prj-part" style="padding-top: 0;">
+      <!-- research and discovery -->
+     <section id="r-and-d" class="prj-part" style="padding-top: 0;">
 
-      <h3>Research and Discovery</h3>
- <h4> I needed to uncover the frequencey of usage among cloud storage platforms among users in addition to their current pain points, likeable qualities, and desired functions.</h4>
-
- <!-- <div class="graph">
+     <h3>Research and Discovery</h3>
+<h4> I needed to uncover the frequencey of usage among cloud storage platforms among users in addition to their current pain points, likeable qualities, and desired functions.</h4>
+        <div class="graph">
           <canvas id="surveyResults"></canvas>
-        </div> -->
+        </div>
         <h4>Key Takeaways:<br>
            <ul>
              <li class="takeaways">Respondents were most frustrated with <b>disorganization</b>, <b>use of multiple platforms</b>, <b>lack of storage space</b></li>
@@ -159,185 +134,102 @@
                     </h4>
                   </section>
 
-                  <!-- competitive analysis -->
-                        <section id="comp-anal" class="prj-part">
-                          <h3>Competitive Analysis</h3>
-                          <p>Out of all the cloud storage services on the market, Google Drive is the most cost-effective,
-                            with many native apps for creating content, such as Docs, Forms, and Sheets. While Google Drive offers real time
-                            collaboration features, users have found the interface difficult to navigate.
-                            Dropbox is an excellent platform for businesses and integrates content from the web into the users respective cloud,
-                            but has fewer ways to create content than Google Docs and has come under fire for security concerns. Pinterest has a more visually-focused interface,
-                            but lacks in collaboration and organizational tools.</p>
-                          </section>
+                <!-- competitive analysis -->
+                                          <section id="comp-anal" class="prj-part">
+                                            <h3>Competitive Analysis</h3>
+                                            <p>Out of all the cloud storage services on the market, Google Drive is the most cost-effective,
+                                              with many native apps for creating content, such as Docs, Forms, and Sheets. While Google Drive offers real time
+                                              collaboration features, users have found the interface difficult to navigate.
+                                              Dropbox is an excellent platform for businesses and integrates content from the web into the users respective cloud,
+                                              but has fewer ways to create content than Google Docs and has come under fire for security concerns. Pinterest has a more visually-focused interface,
+                                              but lacks in collaboration and organizational tools.</p>
+                                            </section>
 
-    <div class="comp-anal-logos">
-      <img src="images/google-drive.png" alt="Google Drive" class="only-pics" style="height: 7rem;">
-      <img src="images/Dropbox.png" alt="Dropbox" class="only-pics" style="height: 8rem;">
-      <img src="images/pinterest.png" alt="Pinterest" class="only-pics" style="height: 7rem;">
-    </div>
+                      <div class="comp-anal-logos">
+                        <img src="images/google-drive.png" alt="Google Drive" class="only-pics" style="height: 7rem;">
+                        <img src="images/Dropbox.png" alt="Dropbox" class="only-pics" style="height: 8rem;">
+                        <img src="images/pinterest.png" alt="Pinterest" class="only-pics" style="height: 7rem;">
+                      </div>
 
-
-    <!---USER RESEARCH--->
-
-        <div class="section">
-          <h2>Personifying the User</h2>
-          <p>Based on the competitive analysis and user survey, I identified high level persona characteristics of a new entrant through hypothetical archetypes of a potential user, Jared.
-          </p>
-        </div>
-    <!-- Goals & Frustrations-->
-              <p class="red underline bold">
-                <b>Goals:</b>
-              </p>
-                <ol class="num list persona">
-                          <b>
-                      <li>To upload and organize files.</li>
-                      <li>To maintain files needed for different projects in one place.</li>
-                      <li>Keep files from different project organized and available to others working on shared documents/spreadsheets, etc.</li>
-                    </b>
-                    <b>
-                    </b>
-                  </ol>
-                </div>
-
-              <!-- 2nd Column  -->
-              <p class="red underline bold">
-                <b>Frustrations:</b>
-              </p>
-                    <ol class="num list persona">
-                      <b>
-                      <li>The need to use multiple apps & devices for saving content.</li>
-                      <li>Often forgets what documents they have shared with whom.</li>
-                      <li>Doesn’t know when another classmate/colleague/student has updated or commented on a document unless they are directly emailed.</li>
-                  </b>
-                  <b>
-                  </b>
-                </ol>
-              </div>
-            </div>
-
-
-    <!-- user stories -->
-               <section id="user-stories" class="prj-part">
-                 <h3>User Stories</h3>
-                 <h4>User stories help clarify the scope of the app and what the most important functions of the app are. These were from three different perspectives: <b>a new user</b>, a <b>returning user</b>, and <b>all users</b>, and ranked in importance of <b>high</b>, <b>medium</b>, or <b>low</b>.</h4>
-                            </section>
-                            <div class="scrolling-wrapper">
-                              <div class="user-stories-table">
-                                <table>
-                                  <tr>
-                                    <th>Role</th>
-                                    <th>Task</th>
-                                    <th>Importance</th>
-                                  </tr>
-                                  <tr>
-                                    <td>New user</td>
-                                    <td>Create an account</td>
-                                    <td>High</td>
-                                  </tr>
-                                  <tr>
-                                    <td>All users</td>
-                                    <td>Create new collection (folder)	</td>
-                                    <td>High</td>
-                                  </tr>
-                                  <tr>
-                                    <td>All users</td>
-                                    <td>Share a photo with a link, email, or through social media	</td>
-                                    <td>High</td>
-                                  </tr>
-                                  <tr>
-                                    <td>All users</td>
-                                    <td>Share a collection with a link, email, or through social media	</td>
-                                    <td>High</td>
-                                  </tr>
-                                  <tr>
-                                    <td>All users</td>
-                                    <td>Upload a folder of content</td>
-                                    <td>High</td>
-                                  </tr>
-                                </table>
-                              </div>
-                              <p class="caption">High importance user stories</p>
-                            </div>
-
-
-                            <!-- user flows -->
-                                  <section id="user-flows" class="prj-part">
-                                    <h3>User Flows</h3>
-                                        <h4>With all this information in hand, the user flows covered onboarding, uploading a file or folder,
+                      <!-- user flows -->
+                          <section id="user-flows" class="prj-part">
+                            <h3>User Flows</h3>
+                            <h4>With all this information in hand, the user flows covered onboarding, uploading a file or folder,
                                           organizing a group of photos into a collection, sharing photo(s) or collections, and setting up a folder to sync with.
                                           Figuring out the details of these processes is an important step in determining scope.</h4>
-                                        </section>
-                                            <div class="scrolling-wrapper" data-flickity=''>
-                                              <div class="card">
-                                                <img src="images/edulifeuserflow.png" alt="User Flow">
-                                                <p class="caption">User Flow</p>
-                                              </div>
-                                              <div class="card">
-                                                <img src="images/edulifesitemap.png" alt="Upload photos">
-                                                <p class="caption">Site map</p>
-                                              </div>
-                                            </div>
-
-                                            <section id="wireframes" class="prj-part">
-       <h3>Wireframes</h3>
-       <h4>The next step was to create lo-fidelity wireframes for each screen in the user flow and sitemap. These were first drawn by hand, then brought to life in Figma.</h4>
- </section>
- <div class="scrolling-wrapper" data-flickity=''>
-        <div class="card">
-          <img src="images/wireframe-sketches.png" alt="B & W Sketches">
-                    <p class="caption">Black & White Sketches</p>
-                  </div>
-                  <div class="card">
-                            <img src="images/ed-lofi-wireframe.svg" alt="Landing page">
-                            <p class="caption">Lo-Fi Wireframes</p>
-                          </div>
-</div>
-
-< <!-- user testing - round one -->
-      <section id="user-testing1" class="prj-part">
-        <h3>User Testing - Round One</h3>
-        <h4>Users were tasked with creating an account, uploading a photo, and organizing a few photos into a collection. The basic tasks were completed with largely few issues, but some suggestions cropped up throughout the testing. The dashboard was rearranged to be more efficient, and a “Home” link was added to the navbar.</h4>
-      </section>
-      <div class="scrolling-wrapper" data-flickity=''>
-        <div class="card">
-          <img src="images/test1-1.png" alt="Adding a Home button">
-          <p class="caption">Added a home button</p>
-        </div>
-        <div class="card">
-          <img src="images/test2-1.png" alt="Nav bar placement">
-          <p class="caption">Split the screens from homepage and onboarding pages.</p>
-        </div>
-      </div>
+                          </section>
+                          <div class="scrolling-wrapper" data-flickity=''>
+                                                                        <div class="card">
+                                                                          <img src="images/edulifeuserflow.png" alt="User Flow">
+                                                                          <p class="caption">User Flow</p>
+                                                                        </div>
+                                                                        <div class="card">
+                                                                          <img src="images/edulifesitemap.png" alt="Upload photos">
+                                                                          <p class="caption">Site map</p>
+                                                                        </div>
+                                                                      </div>
 
 
-      <!-- branding -->
-           <section id="branding" class="prj-part">
-             <h3>Branding</h3>
-             <h4>Once the wireframes were done, I turned my focus to the branding. At heart,
-               I wanted edulife to be bold and sleek, so as to better appeal to notes of sophistcation and maturity for academics.
-            With a predominantly bold, royal background, the logo needed to stand out, so I overlaid the vibrant, split wording, on top of the royal blue to make it more dynamic.</h4>
-           </section>
-           <div class="scrolling-wrapper" data-flickity=''>
-             <div class="card">
-               <img src="images/style-guide.png" alt="Style guide">
-               <p class="caption">edulife style guide</p>
-             </div>
-             <div class="card">
-               <img src="images/branding-brainstorming.png" alt="Logo brainstorming">
-               <p class="caption">Logo brainstorming with paper and pen</p>
-             </div>
-             <div class="card">
-               <img src="images/logo-iterations.png" alt="Logo iterations">
-               <p class="caption">Logo iterations</p>
-             </div>
-             <div class="card">
-               <img src="images/logos-final.png" alt="Final logos">
-               <p class="caption">Final edulife logo</p>
-             </div>
-           </div>
+                                                                                        <section id="wireframes" class="prj-part">
+                                                                             <h3>Wireframes</h3>
+                                                                             <h4>The next step was to create lo-fidelity wireframes for each screen in the user flow and sitemap. These were first drawn by hand, then brought to life in Figma.</h4>
+                                                                       </section>
+                                                                       <div class="scrolling-wrapper" data-flickity=''>
+                                                                              <div class="card">
+                                                                                <img src="images/wireframe-sketches.png" alt="B & W Sketches">
+                                                                                          <p class="caption">Black & White Sketches</p>
+                                                                                        </div>
+                                                                                        <div class="card">
+                                                                                                  <img src="images/ed-lofi-wireframe.svg" alt="Landing page">
+                                                                                                  <p class="caption">Lo-Fi Wireframes</p>
+                                                                                                </div>
+                                                                      </div>
 
-           <!-- hi-fi mockups -->
-      <section id="hi-fi-mockups" class="prj-part">
+                                                                      <!-- user testing - round one -->
+                                                                            <section id="user-testing1" class="prj-part">
+                                                                              <h3>User Testing - Round One</h3>
+     <h4>Users were tasked with creating an account, uploading a photo, and organizing a few photos into a collection. The basic tasks were completed with largely few issues, but some suggestions cropped up throughout the testing. The dashboard was rearranged to be more efficient, and a “Home” link was added to the navbar.</h4>
+   </section>
+   <div class="scrolling-wrapper" data-flickity=''>
+     <div class="card">
+       <img src="images/test1-1.png" alt="Adding a Home button">
+       <p class="caption">Added a home button</p>
+     </div>
+     <div class="card">
+       <img src="images/test2-1.png" alt="Nav bar placement">
+       <p class="caption">Split the screens from homepage and onboarding pages.</p>
+     </div>
+   </div>
+
+   <!-- branding -->
+              <section id="branding" class="prj-part">
+                <h3>Branding</h3>
+                <h4>Once the wireframes were done, I turned my focus to the branding. At heart,
+                  I wanted edulife to be bold and sleek, so as to better appeal to notes of sophistcation and maturity for academics.
+               With a predominantly bold, royal background, the logo needed to stand out, so I overlaid the vibrant, split wording, on top of the royal blue to make it more dynamic.</h4>
+              </section>
+              <div class="scrolling-wrapper" data-flickity=''>
+                <div class="card">
+                  <img src="images/style-guide.png" alt="Style guide">
+                  <p class="caption">edulife style guide</p>
+                </div>
+                <div class="card">
+                  <img src="images/branding-brainstorming.png" alt="Logo brainstorming">
+                  <p class="caption">Logo brainstorming with paper and pen</p>
+                </div>
+                <div class="card">
+                  <img src="images/logo-iterations.png" alt="Logo iterations">
+                  <p class="caption">Logo iterations</p>
+                </div>
+                <div class="card">
+                  <img src="images/logos-final.png" alt="Final logos">
+                  <p class="caption">Final edulife logo</p>
+                </div>
+              </div>
+
+<!-- hi-fi mockups -->
+
+<section id="hi-fi-mockups" class="prj-part">
         <h3>Hi-Fi Mockups</h3>
         <h4>High-fidelity mockups were created in Figma to show what the finished MVP would actually look like. These mockups followed the patterns in the style guide to keep a consistent feel throughout the product.</h4>
       </section>
@@ -359,61 +251,54 @@
     </div>
   </div>
 
-      <!-- conclusion -->
-        <section id="conclusion" class="prj-part">
-          <h3>Conclusion</h3>
-          <h4>Going through this journey was a process and an extremely valuable experience for me as a designer. I learned a lot about the importance of each step of the process, especially the research-gathering phase. The research you do is the foundation of what you design, and the more information you gather, the stronger your foundation. <br><br>The most difficult part of this process for me was creating the high-fidelity mockups. I knew what feelings and messages I wanted to convey with my design, but I had trouble translating that into a tangible finished product. What I found was that it was easier to step away for a quick break and a mental refresh every so often, or look for inspiration in other places, instead of mulishly trying to push through it. Sourcing opinions from others with A/B testing and usability testing was also invaluable, and a good way to get back on track. <br><br>By being thorough in my background research and gathering the requisite information, I’ve positioned my product to fill a space in the current market. By going through several iterations of designing and collecting user reactions through multiple rounds of user testing,
-            I’ve created an experience that is intuitive and easy for people to use. The care and attention I put into each step of the process ensures that Muse is the best solution for the problem.
-The MVP for this design addresses the main problem we set out to solve in the cloud storage space - Unintuitive design and frustrating navigability and organization. edulife delivers a clean and friendly UI for users within the academic space to save files, create documents, and share and collaborate on content. Through multiple rounds of A/B testing and over 150 screens of iterations, I could provide a better solution by focusing on the foundations of intuitive design such as visibility, feedback, affordance, expectation, efficiency.
-          </h4>
-          <a href="https://invis.io/PDS2PN57U6V" target="_blank" class="button" style="margin-top: 5%;">View Desktop Prototype</a>
-        </section>
-      </div>
 
-      <!-- to top button -->
-      <button onclick="topFunction()" id="toTop" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
-        <i class="material-icons md-36">expand_less</i>
-      </button>
+  <!-- conclusion -->
+          <section id="conclusion" class="prj-part">
+            <h3>Conclusion</h3>
+            <h4>The MVP for this design addresses the main problem we set out to solve in the cloud storage space - Unintuitive design and frustrating navigability and organization. edulife delivers a clean and friendly UI for users within the academic space to save files, create documents, and share and collaborate on content. Through multiple rounds of A/B testing and over 150 screens of iterations, I could provide a better solution by focusing on the foundations of intuitive design such as visibility, feedback, affordance, expectation, efficiency.
+              Because the user research you conduct is the foundation of what you design, and the more information gathered, the stronger the MVP. <br><br>The most difficult part of this process for me was creating the high-fidelity mockups.
+              I knew what feelings and messages I wanted to convey with my design, but I had trouble translating that into a tangible finished product.
+              What I found was that it was easier to step away for a quick break and a mental refresh every so often, or look for inspiration in other places, instead of mulishly trying to push through it. Sourcing opinions from others with A/B testing and usability testing was also invaluable, and a good way to get back on track. <br><br>By being thorough in my background research and gathering the requisite information, I’ve positioned my product to fill a space in the current market. By going through several iterations of designing and collecting user reactions through multiple rounds of user testing,
+            I’ve created an experience that is intuitive and easy for people to use.
+            </h4>
+            <a href="https://invis.io/PDS2PN57U6V" target="_blank" class="button" style="margin-top: 5%;">View Desktop Prototype</a>
+          </section>
+        </div>
 
-      <!-- footer -->
-      <footer>
-        <h6>© 2020 Ava Nadel</h6>
-        <ul class="footer-info">
-                  <li class="footer-social">
-                  <a href="https://www.linkedin.com/in/ava-nadel-a13a3315a/">
-                  <i class="fab fa-linkedin-in" height="40" width="40"></i>
-                  </a>
-                </li>
-                <li class="footer-social">
-                  <a href="https://github.com/avanadel">
-                  <i class="fab fa-github"></i>
-                  </a>
-                </li>
-                <li class="footer-social">
-                  <a href="mailto:avagnadel@gmail.com">
-                  <i class="far fa-envelope-open"></i>
-                  </a>
-                </li>
-          			</ul>
-          </footer>
+        <!-- to top button -->
+            <button onclick="topFunction()" id="toTop" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
+              <i class="material-icons md-36">expand_less</i>
+            </button>
 
-  <!-- scripts -->
-     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-     <script src="scripts/menu.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
-     <script src="scripts/localWaypoints.js"></script>
-   </body>
- </html>
-  </script>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147967840-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+                        <ul class="contact-links">
+                          <li>
+                            <a href="https://www.linkedin.com/in/avanadel/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                          </li>
+                          <li>
+                            <a href="https://github.com/rainazheng"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+                          </li>
+                          <li>
+                            <a href="mailto:avagnadel@gmail.com"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </section>
+                </div>
 
-    gtag('config', 'UA-147967840-1');
-  </script>
-  </body>
-  </html>
+
+            <!-- footer -->
+            <footer>
+              <h6>© Ava Nadel 2020</h6>
+            </footer>
+
+            <!-- scripts -->
+            <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+            <script src="scripts/menu.js"></script>
+            <script src="scripts/toTop.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+            <script src="scripts/graph.js"></script>
+            <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+          </body>
+        </html>
